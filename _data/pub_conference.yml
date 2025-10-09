@@ -1,0 +1,11 @@
+
+
+- title: "AAAA"
+  venue:
+    name: NeurIPS
+  year: 2025
+  authors: A, B
+  highlight: Spotlight
+  link:
+    paper: https://arxiv.org/
+    code: https://github.com/RH-Lin
