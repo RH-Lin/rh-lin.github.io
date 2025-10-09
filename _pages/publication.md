@@ -1,9 +1,9 @@
 ---
-title: "Ronghao Lin - Publications"
+title: "Ronghao Lin - Publication"
 layout: textlay
-excerpt: "Ronghao Lin -- Publications."
+excerpt: "Ronghao Lin -- Publication."
 sitemap: false
-permalink: /publications
+permalink: /publication
 ---
 
 

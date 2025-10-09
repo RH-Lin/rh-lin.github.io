@@ -12,7 +12,7 @@ permalink: /
     <tbody>
         <tr>
             <td width="35%">
-              <a id="profile" href="{{site.url}}{{site.baseurl}}/"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="90%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;" /></a>
+              <a id="profile" href="{{site.url}}{{site.baseurl}}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="90%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;" /></a>
             </td>
             <td>
                 <div id="toptitle" style="margin-left: 20px">
@@ -60,7 +60,7 @@ I am currently working as a joint Ph.D. in Nanyang Technological University (NTU
 <div style="margin-top: 20px"></div>
 
 ### 💫 Research
-My research interests include: CV & NLP, Multimodal Affective Computing and Emotion Reasoning, Multimodal Empathetic Response with LLM, Digital Human Generation, Video Understanding, World Model and so on. I have published 10+ papers at the top AI conferences / journal <a href='https://scholar.google.com/citations?user=xm6apUEAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interests include: CV & NLP, Multimodal Affective Computing and Emotion Reasoning, Multimodal Empathetic Response with LLM, Digital Human Generation, Video Understanding, World Model and so on. I have published 10+ papers at the top AI conferences / journal <a href='https://scholar.google.com/citations?user=xm6apUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=&https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRH-Lin%2rh-lin.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 {: .text-justify}
 
 My long-term goal is to build human-centric multimodal understanding and generation. 
@@ -72,6 +72,7 @@ I also extensively explore the application of AI for science, cognitive computin
 <div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;">
 
 - **Multimodal Affective Computing**:
+
 &nbsp;&nbsp; MTMD, MMCL, MSG-MBA
 
 </div>
@@ -79,6 +80,7 @@ I also extensively explore the application of AI for science, cognitive computin
 <div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;">
 
 - **Robust Multimodal Learning**:
+
 &nbsp;&nbsp; M3ixup, [CyIN](https://github.com/RH-Lin/CyIN), [MMPDA](https://github.com/RH-Lin/MMPDA), [MissModal](https://github.com/RH-Lin/MissModal)
 
 </div>
@@ -86,6 +88,7 @@ I also extensively explore the application of AI for science, cognitive computin
 <div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;">
 
 - **Multimodal Empathetic Response**:
+
 &nbsp;&nbsp; [E3RG](https://github.com/RH-Lin/E3RG)
 
 </div>
@@ -95,6 +98,6 @@ I also extensively explore the application of AI for science, cognitive computin
 
 <div style="margin-top: 20px"></div>
 
-### 📣 Advertising
+### 📢 Advertising
 
 XXX

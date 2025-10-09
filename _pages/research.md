@@ -23,21 +23,23 @@ Research Statement ...
 <div style="margin-top: 20px"></div> -->
 
 
-### ** Research Block**
+### **Research Block**
 
 Below split previous representative researches based on topic [\[All publications\]]({{ site.url }}{{ site.baseurl }}/publication):
 
 
 <div style="margin-top: 40px"></div>
 
-#### ** Multimodal Affective Computing **
+#### **Multimodal Affective Computing**
 
 <div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;line-height: 19px;">
 
-- ** Multimodal Fusion **:
+- **Multimodal Fusion**:
+
 &nbsp;&nbsp; MTMD, MMCL, MSG-MBA
 
-- ** Missing Modality Issue **:
+- **Missing Modality Issue**:
+
 &nbsp;&nbsp; MTMD, MMCL, MSG-MBA
 
 </div>

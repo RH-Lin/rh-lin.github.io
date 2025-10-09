@@ -14,8 +14,8 @@ permalink: /service
 
 ### Organization Member
 
-- ACL Member
-- ACM Member
+- ACL Student Member
+- ACM Student Member
 <!-- - IEEE Member -->
 <!-- - CAAI Member (中国人工智能学会) -->
 <!-- - CIPS Member (中国中文信息学会) -->

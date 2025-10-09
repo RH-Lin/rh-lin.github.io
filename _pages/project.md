@@ -3,7 +3,7 @@ title: "Ronghao Lin - Project"
 layout: textlay
 excerpt: "Ronghao Lin - Project"
 sitemap: false
-permalink: /projects
+permalink: /project
 ---
 
 # Participated / Led Project
