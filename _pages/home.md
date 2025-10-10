@@ -38,7 +38,7 @@ I also extensively explore the application of AI for science, cognitive computin
 
 - **Multimodal Affective Computing**:
 
-&nbsp;&nbsp; MTMD, MMCL, MSG-MBA
+<span style="padding-left: 60px;">MTMD, MMCL, MSG-MBA</span>
 
 </div>
 
@@ -48,7 +48,7 @@ I also extensively explore the application of AI for science, cognitive computin
 
 - **Robust Multimodal Learning**:
 
-&nbsp;&nbsp; M3ixup, [CyIN](https://github.com/RH-Lin/CyIN), [MMPDA](https://github.com/RH-Lin/MMPDA), [MissModal](https://github.com/RH-Lin/MissModal)
+<span style="padding-left: 60px;">M3ixup, [CyIN](https://github.com/RH-Lin/CyIN), [MMPDA](https://github.com/RH-Lin/MMPDA), [MissModal](https://github.com/RH-Lin/MissModal)</span>
 
 </div>
 
@@ -58,7 +58,7 @@ I also extensively explore the application of AI for science, cognitive computin
 
 - **Multimodal Empathetic Response**:
 
-&nbsp;&nbsp; [E3RG](https://github.com/RH-Lin/E3RG)
+<span style="padding-left: 60px;">[E3RG](https://github.com/RH-Lin/E3RG)</span>
 
 </div>
 
