@@ -14,7 +14,7 @@ permalink: /project
 
 {% for proj in site.data.project %}
 <div class="row">
-<h3>&#9654; {{ proj.topic }}</h3>
+<h3> {{ proj.topic }}</h3>
 <div  style="margin-top: -15px" >
   <center><img src="{{ site.url }}{{ site.baseurl }}/assets/proj_imgs/{{proj.photo.name}}" class="img-responsive" width="{{proj.photo.scale}}" alt="centered image"  style="margin-left: 20px" /></center>
 </div>
