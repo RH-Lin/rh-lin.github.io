@@ -18,7 +18,8 @@ permalink: /
                 <div id="toptitle" style="margin-left: 20px">
                     <h1>{{ member.name }} </h1>
                     <h3>{{ member.identity }} </h3>
-                    {{ member.location }}  <br>
+                    {{ member.location1 }}  <br>
+                    {{ member.location2 }}  <br>
                     <div style="margin-top: 15px;margin-left: -80px">
                         <center>
                             {% if member.website %}<a href="{{ member.website }}" target="_blank" ><i class="fa fa-home fa-2x"></i></a> {% endif %}
@@ -77,6 +78,8 @@ I also extensively explore the application of AI for science, cognitive computin
 
 </div>
 
+<div style="margin-top: 10px"></div>
+
 <div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;">
 
 - **Robust Multimodal Learning**:
@@ -84,6 +87,8 @@ I also extensively explore the application of AI for science, cognitive computin
 &nbsp;&nbsp; M3ixup, [CyIN](https://github.com/RH-Lin/CyIN), [MMPDA](https://github.com/RH-Lin/MMPDA), [MissModal](https://github.com/RH-Lin/MissModal)
 
 </div>
+
+<div style="margin-top: 10px"></div>
 
 <div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;">
 

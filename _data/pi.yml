@@ -12,5 +12,7 @@
   twitter: # https://x.com/xxx
   cv: #
 
-  # location: School of Electronics and Information Technology, Sun Yat-sen University
-  location: School of Electrical and Electronic Engineering, Nanyang Technological University
+  # location1: School of Electronics and Information Technology
+  # location2: Sun Yat-sen University
+  location1: School of Electrical and Electronic Engineering
+  location2: Nanyang Technological University
