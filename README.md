@@ -1,4 +1,4 @@
-# Ronghao Lin's Website
+# Ronghao Lin's Personal Website
 
 Powered by Jekyll's static HTML, along with Bootstrap's CSS style. 
 
