@@ -1,11 +1,10 @@
-<div class="well">
 
 {% for member in site.data.pi %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box"></div>
 
   <div class="author__avatar">
-      <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="author__avatar" width="80%" alt="{{ member.name }}"></a>
+      <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="80%" alt="{{ member.name }}"></a>
   </div>
 
   <div class="author__content">
@@ -91,4 +90,3 @@
 </div>
 
 {% endfor %}
-</div>

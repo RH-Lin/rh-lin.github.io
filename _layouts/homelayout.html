@@ -2,16 +2,17 @@
 layout: default
 ---
 
-<div id="sidebar" class="col-sm-2">
-{{% include sidebar.html %}}
+<div class="row">
+    <div id="sidebar" class="col-sm-2">
+    {{% include sidebar.html %}}
+    </div>
+    <div id="homeid" class="col-sm-8">
+    {{ content }}
+    </div>
+    <div id="newsid" class="col-sm-2" >
+    {% include news.html %}
+    </div>
+    <div id="visits" class="col-sm-2">
+    {% include visits.html %}
+    </div>
 </div>
-<div id="homeid" class="col-sm-8">
-{{ content }}
-</div>
-<div id="newsid" class="col-sm-2" >
-{% include news.html %}
-</div>
-<div id="visits" class="col-sm-2">
-{% include visits.html %}
-</div>
-
