@@ -6,52 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-{% for member in site.data.pi %}
-
-<table>
-    <tbody>
-        <tr>
-            <td width="35%">
-              <a id="profile" href="{{site.url}}{{site.baseurl}}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="90%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;" /></a>
-            </td>
-            <td>
-                <div id="toptitle" style="margin-left: 20px">
-                    <h1>{{ member.name }} </h1>
-                    <h3>{{ member.identity }} </h3>
-                    {{ member.location1 }}  <br>
-                    {{ member.location2 }}  <br>
-                    <div style="margin-top: 15px;margin-left: -80px">
-                        <center>
-                            {% if member.website %}<a href="{{ member.website }}" target="_blank" ><i class="fa fa-home fa-2x"></i></a> {% endif %}
-                            {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-                            {% if member.email2 %}<a href="mailto:{{ member.email2 }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-                            {% if member.googlescholar %} <a href="{{ member.googlescholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-                            {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
-                            {% if member.semanticscholar %} <a href="{{ member.semanticscholar }}" target="_blank"><i class="ai ai-semantic-scholar-square ai-2x"></i></a> {% endif %}
-                            {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
-                            {% if member.dblp %} <a href="{{ member.dblp }}" target="_blank"><i class="ai ai-dblp-square ai-2x"></i></a> {% endif %}
-                            {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a> {% endif %}
-                            {% if member.twitter %} <a href="{{ member.twitter }}" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a> {% endif %}
-                            {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-                        </center>
-
-                    </div>
-                </div>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-{% endfor %}
-
 <div style="margin-top: 35px"></div>
-
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <!-- ------------------------------------------- -->
 

@@ -1,0 +1,93 @@
+
+{% for member in site.data.pi %}
+
+<div itemscope itemtype="http://schema.org/Person" class="profile_box"></div>
+
+  <div class="author__avatar">
+      <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="author__avatar" alt="{{ member.name }}"></a>
+  </div>
+
+  <div class="author__content">
+      <h3 class="author__name">{{ member.name }}</h3>
+    </div>
+
+  <div class="author__urls-wrapper">
+    <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
+    <ul class="author__urls social-icons">
+      {% if member.identity %}
+        <li><div style="white-space: normal; margin-bottom: 1em;">{{ member.identity }}</div></li>
+      {% endif %}
+      {% if member.location1 %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location1 }}</li>
+      {% endif %}
+      {% if member.location2 %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location2 }}</li>
+      {% endif %}
+      {% if member.email1 %}
+        <li><a href="mailto:{{ member.email1 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email1</a></li>
+      {% endif %}
+      {% if member.email2 %}
+        <li><a href="mailto:{{ member.email2 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email2</a></li>
+      {% endif %}
+      {% if member.github %}
+        <li><a href="{{ member.github }}"><i class="fab fa-fw fa-github"></i> Github</a></li>
+      {% endif %}
+      {% if member.googlescholar %}
+        <li><a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></li>
+      {% endif %}
+      {% if member.semanticscholar %}
+        <li><a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar-square"></i> Semantic Scholar</a></li>
+      {% endif %}
+      {% if member.researchgate %}
+        <li><a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate"></i> ResearchGate</a></li>
+      {% endif %}
+      {% if member.dblp %}
+        <li><a href="{{ member.dblp }}"><i class="ai ai-dblp ai-fw"></i> DBLP</a></li>
+      {% endif %}
+      {% if member.linkedin %}
+        <li><a href="{{ member.linkedin }}"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a></li>
+      {% endif %}
+      {% if member.twitter %}
+        <li><a href="{{ member.twitter }}"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>
+      {% endif %}
+      {% if member.cv %}
+        <li><a href="{{ member.cv }}"><i class="fab fa-fw fa-book"></i> CV</a></li>
+      {% endif %}
+    </ul>
+      <div class="author__urls_sm">
+      {% if member.email1 %}
+        <a href="mailto:{{ member.email1 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.email2 %}
+        <a href="mailto:{{ member.email2 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.github %}
+        <a href="{{ member.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.googlescholar %}
+        <a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar-square" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.semanticscholar %}
+        <a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar-square" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.researchgate %}
+        <a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.dblp %}
+        <a href="{{ member.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.linkedin %}
+        <a href="{{ member.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.twitter %}
+        <a href="{{ member.twitter }}"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.cv %}
+        <a href="{{ member.cv }}"><i class="fab fa-fw fa-book" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% endfor %}
+
