@@ -389,20 +389,6 @@
   }
 }
 
-@media (min-width: $grid-float-breakpoint) {
-  .navbar-center {
-    float: none !important;           // 取消左右浮动
-    display: flex !important;         // 使用 flex 布局
-    justify-content: center !important; // 水平居中
-    width: 100%;                      // 占满父容器
-    
-    > li {
-      float: none !important;         // 子元素取消浮动
-      display: inline-block;          // 并排显示
-    }
-  }
-}
-
 // Alternate navbars
 // --------------------------------------------------
 

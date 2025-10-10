@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<div style="margin-top: 35px"></div>
+<div style="margin-top: 30px"></div>
 
 <!-- ------------------------------------------- -->
 
