@@ -56,39 +56,38 @@
         <li><i class="fa fa-book"></i><a href="{{ member.cv }}">  CV</a></li>
       {% endif %}
     </ul>
-
-    <div class="author__urls_sm">
-      {% if member.email1 %}
-        <a href="mailto:{{ member.email1 }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.email2 %}
-        <a href="mailto:{{ member.email2 }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.github %}
-        <a href="{{ member.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.googlescholar %}
-        <a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.semanticscholar %}
-        <a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.researchgate %}
-        <a href="{{ member.researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.dblp %}
-        <a href="{{ member.dblp }}"><i class="ai ai-dblp" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.linkedin %}
-        <a href="{{ member.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.twitter %}
-        <a href="{{ member.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if member.cv %}
-        <a href="{{ member.cv }}"><i class="fa fa-book" aria-hidden="true"></i></a>
-      {% endif %}
-    </div>
+      <div class="author__urls_sm">
+        {% if member.email1 %}
+          <a href="mailto:{{ member.email1 }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.email2 %}
+          <a href="mailto:{{ member.email2 }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.github %}
+          <a href="{{ member.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.googlescholar %}
+          <a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.semanticscholar %}
+          <a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.researchgate %}
+          <a href="{{ member.researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.dblp %}
+          <a href="{{ member.dblp }}"><i class="ai ai-dblp" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.linkedin %}
+          <a href="{{ member.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.twitter %}
+          <a href="{{ member.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if member.cv %}
+          <a href="{{ member.cv }}"><i class="fa fa-book" aria-hidden="true"></i></a>
+        {% endif %}
+      </div>
   </div>
 </div>
 
