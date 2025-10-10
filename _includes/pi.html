@@ -21,48 +21,48 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location }}</li>
       {% endif %}
       {% if member.university %}
-        <li><i class="fa fa-fw fa-university ai-0.8x" aria-hidden="true"></i> {{ member.university }}</li>
+        <li><i class="fa fa-fw fa-university ai-0.5x" aria-hidden="true"></i> {{ member.university }}</li>
       {% endif %}
       {% if member.email1 %}
-        <li><a href="mailto:{{ member.email1 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:{{ member.email1 }}"> Email</a></li>
       {% endif %}
       {% if member.email2 %}
-        <li><a href="mailto:{{ member.email2 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:{{ member.email2 }}"> Email</a></li>
       {% endif %}
       {% if member.github %}
-        <li><a href="{{ member.github }}"><i class="fa fa-github"></i> Github</a></li>
+        <li><i class="fa fa-github"></i><a href="{{ member.github }}"> Github</a></li>
       {% endif %}
       {% if member.googlescholar %}
-        <li><a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a></li>
+        <li><i class="ai ai-google-scholar"></i><a href="{{ member.googlescholar }}"> Google Scholar</a></li>
       {% endif %}
       {% if member.semanticscholar %}
-        <li><a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar"></i> Semantic Scholar</a></li>
+        <li><i class="ai ai-semantic-scholar"></i><a href="{{ member.semanticscholar }}"> Semantic Scholar</a></li>
       {% endif %}
       {% if member.researchgate %}
-        <li><a href="{{ member.researchgate }}"><i class="ai ai-researchgate"></i> ResearchGate</a></li>
+        <li><i class="ai ai-researchgate"></i><a href="{{ member.researchgate }}"> ResearchGate</a></li>
       {% endif %}
       {% if member.dblp %}
-        <li><a href="{{ member.dblp }}"><i class="ai ai-dblp"></i> DBLP</a></li>
+        <li><i class="ai ai-dblp"></i><a href="{{ member.dblp }}"> DBLP</a></li>
       {% endif %}
       {% if member.linkedin %}
-        <li><a href="{{ member.linkedin }}"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a></li>
+        <li><i class="fab fa-fw fa-linkedin"></i><a href="{{ member.linkedin }}"> LinkedIn</a></li>
       {% endif %}
       {% if member.twitter %}
-        <li><a href="{{ member.twitter }}"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>
+        <li><i class="fab fa-fw fa-twitter"></i><a href="{{ member.twitter }}"> Twitter</a></li>
       {% endif %}
       {% if member.cv %}
-        <li><a href="{{ member.cv }}"><i class="fab fa-fw fa-book"></i> CV</a></li>
+        <li><i class="fab fa-fw fa-book"></i><a href="{{ member.cv }}"> CV</a></li>
       {% endif %}
     </ul>
       <div class="author__urls_sm">
       {% if member.email1 %}
-        <a href="mailto:{{ member.email1 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        <a href="mailto:{{ member.email1 }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if member.email2 %}
-        <a href="mailto:{{ member.email2 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        <a href="mailto:{{ member.email2 }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if member.github %}
-        <a href="{{ member.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+        <a href="{{ member.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if member.googlescholar %}
         <a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
