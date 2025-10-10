@@ -73,8 +73,6 @@ My research interests include: CV & NLP, Multimodal Affective Computing and Emot
 I have published 10+ papers at the top AI conferences / journals <a href='https://scholar.google.com/citations?user=xm6apUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRH-Lin%2Frh-lin.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 {: .text-justify}
 
-<img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-
 My long-term goal is to build human-centric multimodal understanding and generation. 
 
 <!-- 我的研究兴趣包括：计算机视觉与自然语言处理，多模态情感计算与推理，大模型共情回复，数字人生成，视频理解，世界模型等。 -->
