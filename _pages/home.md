@@ -70,10 +70,10 @@ I am currently working as a joint Ph.D. in Nanyang Technological University (NTU
 ### 💫 Research
 My research interests include: CV & NLP, Multimodal Affective Computing and Emotion Reasoning, Multimodal Empathetic Response with LLM, Digital Human Generation, Video Understanding, World Model and so on. 
 
-I have published 10+ papers at the top AI conferences / journals <a href='https://scholar.google.com/citations?user=xm6apUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=&https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRH-Lin%2Frh-lin.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+I have published 10+ papers at the top AI conferences / journals <a href='https://scholar.google.com/citations?user=xm6apUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRH-Lin%2Frh-lin.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 {: .text-justify}
 
-<img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=&https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 My long-term goal is to build human-centric multimodal understanding and generation. 
 
