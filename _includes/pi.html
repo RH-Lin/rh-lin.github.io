@@ -4,7 +4,7 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box"></div>
 
   <div class="author__avatar">
-      <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="author__avatar" alt="{{ member.name }}"></a>
+      <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="80%" alt="{{ member.name }}"></a>
   </div>
 
   <div class="author__content">
@@ -17,11 +17,11 @@
       {% if member.identity %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ member.identity }}</div></li>
       {% endif %}
-      {% if member.location1 %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location1 }}</li>
+      {% if member.location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location }}</li>
       {% endif %}
-      {% if member.location2 %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location2 }}</li>
+      {% if member.university %}
+        <li><i class="fa fa-fw fa-university" aria-hidden="true"></i> {{ member.university }}</li>
       {% endif %}
       {% if member.email1 %}
         <li><a href="mailto:{{ member.email1 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email1</a></li>
@@ -33,10 +33,10 @@
         <li><a href="{{ member.github }}"><i class="fab fa-fw fa-github"></i> Github</a></li>
       {% endif %}
       {% if member.googlescholar %}
-        <li><a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></li>
+        <li><a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a></li>
       {% endif %}
       {% if member.semanticscholar %}
-        <li><a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar-square"></i> Semantic Scholar</a></li>
+        <li><a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar"></i> Semantic Scholar</a></li>
       {% endif %}
       {% if member.researchgate %}
         <li><a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate"></i> ResearchGate</a></li>
@@ -65,10 +65,10 @@
         <a href="{{ member.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if member.googlescholar %}
-        <a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar-square" aria-hidden="true"></i></a>
+        <a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
       {% endif %}
       {% if member.semanticscholar %}
-        <a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar-square" aria-hidden="true"></i></a>
+        <a href="{{ member.semanticscholar }}"><i class="ai ai-semantic-scholar" aria-hidden="true"></i></a>
       {% endif %}
       {% if member.researchgate %}
         <a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>

@@ -1,6 +1,9 @@
 - name: Ronghao Lin
   photo: BlackCat.jpg
   identity: Pursuing Ph.D.
+  location: China | Singapore
+  university: SYSU | NTU
+  
   email: linrh7@mail2.sysu.edu.cn
   email2: # bighandsome2020@outlook.com
   googlescholar: https://scholar.google.com/citations?user=xm6apUEAAAAJ
@@ -12,7 +15,3 @@
   twitter: # https://x.com/xxx
   cv: #
 
-  # location1: School of Electronics and Information Technology
-  # location2: Sun Yat-sen University
-  location1: School of Electrical and Electronic Engineering
-  location2: Nanyang Technological University
