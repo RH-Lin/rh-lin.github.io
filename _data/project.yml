@@ -1,19 +1,49 @@
+# - topic: Desay SV Automotive Singapore, Ltd. & NTU Project
+#   title: "Generation-based World Model in Driving Scenarios"
+#   photo:
+#     name: project5_world_model.png
+#     scale: 100%
+#   time: 2024-2025
+#   leader: Prof. Chen Lv, Dr. Xiaojun Wu
+#   link: https://lvchen.wixsite.com/automan
+#   desc: "Research cooperation. "
 
+- topic: The University of Hongkong HKU-MM Lab Summer Research
+  title: "Unifying Multimodal Generation and Perception via Energy-based Diffusion"
+  photo:
+    name: project4_energy_diffusion.png
+    scale: 100%
+  time: 2021-2024
+  leader: Prof. Ping Luo
+  link: https://mmlab.hk/
+  desc: "Research assistant and finished research with Satisfactory Presentation. "
+
+- topic: Desay SV Research Institute Project
+  title: "Project Cooperation with Desay SV Automatic-Driving Team"
+  photo:
+    name: project3_slam.gif
+    scale: 100%
+  time: 2021-2024
+  leader: Prof. Haifeng Hu, Dean Li Huang
+  link: https://www.desaysv.com/
+  desc: "Collaborate on projects including Dynamic Calibration, Visual SLAM, Autonomous Parking System, AIGC for Driving Scene. "
+
+- topic: SYSU Undergraduate Graduation Thesis
+  title: "Research on Detection Method and Avoidance of Flicker in Auto-stereoscopic Display"
+  photo:
+    name: project2_flicker.png
+    scale: 100%
+  time: 2020-2021
+  leader: Dean. Jianying Zhou, Prof. Haowen Liang
+  link: https://www.midstereo.com/
+  desc: "Research cooperation with senior engineers on face detection and tracking algorithms; Propose effective methods of detection laws of flicker in auto-stereoscopic display. "
 
 - topic: SYSU Undergraduate Scientific Research Project
+  title: "Accelerator Searching for Low-quality Dark Matter Solutions"
   photo:
     name: project1_dark_matter.png
     scale: 100%
-  title: "Accelerator Searching for Low-quality Dark Matter Solutions"
   time: 2018-2019
   leader: Prof. Jian Tang
   link: http://bes3.ihep.ac.cn/
-  desc: "111111111111"
-
-
-- topic: SYSU Undergraduate Scientific Research Project
-  title: "Accelerator Searching for Low-quality Dark Matter Solutions"
-  time: 2018-2019
-  leader: Prof. Jian Tang
-  link: http://bes3.ihep.ac.cn/
-  desc: "111111111111"
+  desc: "On duty at Institute of High Energy Physics (CAS) to conduct research with BESIII International Team; Successfully migrated BESIII offline software system (BOSS) to the Tianhe-2 supercomputer. "
