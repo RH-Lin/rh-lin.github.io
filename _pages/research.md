@@ -3,12 +3,11 @@ title: "Ronghao Lin - Research"
 layout: textlay
 excerpt: "Ronghao Lin -- Research"
 sitemap: false
-permalink: /research/
+permalink: /research
 ---
 
 # Research Statement
 <div style="margin-top: 35px"></div>
-
 
 ### **Human-centric Multimodal Understanding and Generation**
 
