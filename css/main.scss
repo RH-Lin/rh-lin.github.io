@@ -109,7 +109,7 @@ pubtit {
 
 /* 让 sidebar 固定但在 container 内 */
 .sticky {
-  position: absolute;
+  position: fixed;
   align-self: flex-start;
   height: fit-content;
   border-right: 1px;
