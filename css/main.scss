@@ -115,27 +115,3 @@ pubtit {
   border-right: 1px;
   overflow-y: auto;
 }
-
-/* Sidebar 固定但仍在 container-fluid 内 */
-.sidebar {
-  position: fixed;   /* 让它在父容器中固定 */
-  top: 80px;          /* 与导航栏间距，可根据实际调整 */
-  align-self: flex-start;
-  background: #fff;
-  padding: 0px;
-  border-right: 1px solid #eee;
-  height: calc(100vh - 80px); /* 占满视窗高度（减去导航栏高度） */
-  overflow-y: auto;   /* 内部可滚动 */
-}
-
-/* 小屏幕时 Sidebar 变为顶部 */
-@media (max-width: 768px) {
-  .sidebar {
-    position: static; 
-    height: auto;
-    border-right: none;
-    border-bottom: 1px solid #eee;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-}
