@@ -25,9 +25,9 @@ permalink: /project
         </div>
       </td>
       <td>
-        <div  style="margin-left: 50px;margin-top: -20px">
+        <div  style="margin-left: 20px;margin-top: -20px">
           <strong style="font-size: 17px;">{{ proj.title }}</strong> {% if proj.link %}&nbsp;&nbsp;<a href="{{ proj.link }}">[link]</a>{% endif %} <br />
-          <strong style="font-size: 17px;">Leader: </strong>{{ proj.leader }}<strong style="font-size: 17px;">&nbsp;|&nbsp; Time: </strong>{{ proj.time }}<br/>
+          <strong style="font-size: 17px;">Leader: </strong>{{ proj.leader }}<strong style="font-size: 17px;">&nbsp;&nbsp;|&nbsp; Time: </strong>{{ proj.time }}<br/>
           <strong style="font-size: 17px;">Intro: </strong>{{ proj.desc }}
         </div>
       </td>
@@ -36,7 +36,7 @@ permalink: /project
 </table>
 {% else %} 
   <strong style="font-size: 17px;">{{ proj.title }}</strong> {% if proj.link %}&nbsp;&nbsp;<a href="{{ proj.link }}">[link]</a>{% endif %} <br />
-  <strong style="font-size: 17px;">Leader: </strong>{{ proj.leader }}<strong style="font-size: 17px;">&nbsp;|&nbsp; Time: </strong>{{ proj.time }}<br/>
+  <strong style="font-size: 17px;">Leader: </strong>{{ proj.leader }}<strong style="font-size: 17px;">&nbsp;&nbsp;|&nbsp; Time: </strong>{{ proj.time }}<br/>
   <strong style="font-size: 17px;">Intro: </strong>{{ proj.desc }}
 {% endif %}
 
