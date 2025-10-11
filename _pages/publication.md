@@ -11,7 +11,7 @@ permalink: /publication
 `#` denotes equal contribution, `*` denotes correspondence.
 See full publications in [\[Google Scholar\]](https://scholar.google.com/citations?user=YGDX46AAAAAJ). <br>
 
-Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#benchmark), [\[Conference\]](#conference), [\[\[Journal\]](#journal), [\[Others\]](#others).
+Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#benchmark), [\[Conference\]](#conference), [\[Journal\]](#journal), [\[Others\]](#others).
 
 <div style="margin-top: 35px"></div>
 
@@ -31,9 +31,9 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
 <div style="margin-top: 30px"></div>
 
+{% if site.data.pub_survey %}
 ### Survey<a name="survey"></a>
 
-{% if site.data.pub_survey %}
 {% for publi in site.data.pub_survey %}
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
