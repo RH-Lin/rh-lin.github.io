@@ -1,29 +1,19 @@
-# - topic: National Natural Science Foundation of China (NSFC)
-#   photo:
-#     name: # 
-#     scale: # 
-#   title: 
-#     name: " "
-#     link: http://XXX
-#   desc: " "
 
 
 - topic: SYSU Undergraduate Scientific Research Project
-  time: 2018-2019
   photo:
     name: project1_dark_matter.png
     scale: 100%
-  title: 
-    name: "Accelerator Searching for Low-quality Dark Matter Solutions"
-    leader: Prof. Jian Tang
-    link: http://bes3.ihep.ac.cn/
+  title: "Accelerator Searching for Low-quality Dark Matter Solutions"
+  time: 2018-2019
+  leader: Prof. Jian Tang
+  link: http://bes3.ihep.ac.cn/
   desc: "111111111111"
 
 
 - topic: SYSU Undergraduate Scientific Research Project
+  title: "Accelerator Searching for Low-quality Dark Matter Solutions"
   time: 2018-2019
-  title: 
-    name: "Accelerator Searching for Low-quality Dark Matter Solutions"
-    leader: Prof. Jian Tang
-    link: http://bes3.ihep.ac.cn/
-  desc: "222222222"
+  leader: Prof. Jian Tang
+  link: http://bes3.ihep.ac.cn/
+  desc: "111111111111"
