@@ -15,7 +15,7 @@ permalink: /project
 {% for proj in site.data.project %}
 <div class="row">
 
-<span style="padding-left: 10px;"></span><h3>{{ proj.topic }}</h3>
+<span style="padding-left: 20px;"><h3>{{ proj.topic }}</h3></span>
 
 {% if proj.photo %}
 <table>
@@ -38,7 +38,7 @@ permalink: /project
   </tbody>
 </table>
 {% else %} 
-<div  style="margin-left: 50px;margin-top: -20px">
+<div  style="margin-left: 20px;margin-top: -20px">
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ proj.title }}</strong> {% if proj.link %}&nbsp;&nbsp;<a href="{{ proj.link }}">[link]</a>{% endif %} <br />
   <strong style="font-size: 17px;">Leader: </strong>{{ proj.leader }}<br/>
   <strong style="font-size: 17px;">Time: </strong>{{ proj.time }}<br/>
