@@ -114,7 +114,7 @@ pubtit {
   width: 240px;           /* 固定宽度，根据你的布局调整 */
   height: auto;          /* 占满整个视窗高度 */
   overflow-y: auto;       /* 超出部分可以滚动 */
-  background: white;      /* 设置背景，避免与内容重叠时透明 */
+  background: #fff;      /* 设置背景，避免与内容重叠时透明 */
   padding: 20px;          /* 内边距，根据需要调整 */
   z-index: 1000;          /* 确保位于内容上方 */
   border-right: 0px solid #eee; /* 可选：添加分隔线 */
@@ -129,7 +129,7 @@ pubtit {
     height: auto;          /* 根据内容自适应 */
     overflow-x: auto;
     border-right: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #fff;
     padding: 10px 15px;
     z-index: 1000;
   }

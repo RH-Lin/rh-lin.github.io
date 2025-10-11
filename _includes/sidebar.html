@@ -1,5 +1,6 @@
+<div class="col-md-2">
 {% if site.title or page.sidebar %}
-  <div class="sidebar col-sm-2">
+  <div class="well sidebar">
   {% if site.title %}{% include pi.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
@@ -12,3 +13,4 @@
   {% endif %}
   </div>
 {% endif %}
+</div>
