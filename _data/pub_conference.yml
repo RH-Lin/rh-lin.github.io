@@ -1,11 +1,55 @@
 
-
-- title: "AAAA"
+- title: "CyIN: Cyclic Informative Latent Space for Bridging Complete and Incomplete Multimodal Learning"
   venue:
     name: NeurIPS
+    note: # 
   year: 2025
-  authors: A, B
-  highlight: Spotlight
+  authors: <strong>Ronghao Lin</strong>, Qiaolin He, Sijie Mai, Ying Zeng, Aolin Xiong, Li Huang, Yap-Peng Tan, Haifeng Hu
+  highlight: # Oral, Highlight
   link:
-    paper: https://arxiv.org/
-    code: https://github.com/RH-Lin
+    paper: # 
+    code: https://github.com/RH-Lin/CyIN
+
+- title: "E3RG: Building Explicit Emotion-driven Empathetic Response Generation System with Multimodal Large Language Model"
+  venue:
+    name: ACM MM
+    note: Grand Challenge
+  year: 2025
+  authors: <strong>Ronghao Lin</strong>, Shuai Shen, Weipeng Hu, Qiaolin He, Aolin Xiong, Li Huang, Haifeng Hu, Yap-Peng Tan
+  highlight: # Oral, Highlight
+  link:
+    paper: # 
+    code: https://github.com/RH-Lin/E3RG
+
+- title: "Multi-source Multimodal Progressive Domain Adaption for Audio-Visual Deception Detection"
+  venue:
+    name: ACM MM
+    note: SVC Workshop 
+  year: 2025
+  authors: <strong>Ronghao Lin</strong>, Sijie Mai, Ying Zeng, Qiaolin He, Aolin Xiong, Haifeng Hu
+  highlight: Oral #, Highlight
+  link:
+    paper: # 
+    code: https://github.com/RH-Lin/MMPDA
+
+- title: "Multimodal Contrastive Learning via Uni-Modal Coding and Cross-Modal Prediction for Multimodal Sentiment Analysis"
+  venue:
+    name: EMNLP
+    note: Findings
+  year: 2022
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  highlight: # Oral, Highlight
+  link:
+    paper: https://aclanthology.org/2022.findings-emnlp.36/
+    code: # 
+
+- title: "Diff-LMM: Diffusion Teacher-Guided Spatio-Temporal Perception for Video Large Multimodal Models"
+  venue:
+    name: IJCAI
+    note: # 
+  year: 2025
+  authors: Jisheng Dang, Ligen Chen, Jingze Wu, <strong>Ronghao Lin</strong>, Bimei Wang, Yun Wang, Liting Wang, Nannan Zhu, Teng Wang
+  highlight: # Oral, Highlight
+  link:
+    paper: https://www.ijcai.org/proceedings/2025/98
+    code: # 

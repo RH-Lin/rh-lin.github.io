@@ -14,26 +14,44 @@ permalink: /project
 
 {% for proj in site.data.project %}
 <div class="row">
+
 <h3> {{ proj.topic }}</h3>
-<div  style="margin-top: -15px" >
-  <center><img src="{{ site.url }}{{ site.baseurl }}/assets/project_imgs/{{proj.photo.name}}" class="img-responsive" width="{{proj.photo.scale}}" alt="centered image"  style="margin-left: 20px" /></center>
-</div>
-  
-<div  style="margin-left: 20px;margin-top: -20px">
-  {% if proj.paper %}<span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;"><a href="{{proj.paper.link}}">{{proj.paper.name}}</a></strong><br />{% endif %}
-  <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;"><a href="{{proj.site.link}}">Project site</a>{% if proj.site.note %} ({{proj.site.note}}){% endif %}</strong> &nbsp; &nbsp; &nbsp; 
-  <br>
-  <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">Description: </strong>{{ proj.desc}}
 
-
-</div>
+  {% if proj.photo %}
+  <table>
+    <tbody>
+        <tr>
+          <td width="35%">
+            <div  style="margin-top: -15px" >
+              <center><img src="{{ site.url }}{{ site.baseurl }}/assets/project_imgs/{{proj.photo.name}}" class="img-responsive" width="{{proj.photo.scale}}" alt="centered image"  style="margin-left: 20px" /></center>
+            </div>
+          </td>
+          <td>
+            <div  style="margin-left: 20px;margin-top: -20px">
+              <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{proj.title.name}}</a></strong><br />
+              <strong style="font-size: 17px;">{{proj.title.leader}}</strong>{% if proj.title.link %} &nbsp; <a href="{{proj.title.link}}">\[link\]</a>{% endif %}
+              <br/>
+              {{proj.title.time}}
+              <br/>
+              <strong style="font-size: 17px;">Intro: </strong>{{ proj.desc}}
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  {% else %}
+    <div  style="margin-left: 20px;margin-top: -20px">
+      <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{proj.title.name}}</a></strong><br />
+      <strong style="font-size: 17px;">{{proj.title.leader}}</strong>{% if proj.title.link %} &nbsp; <a href="{{proj.title.link}}">\[link\]</a>{% endif %}
+      <br/>
+      {{proj.title.time}}
+      <br/>
+      <strong style="font-size: 17px;">Intro: </strong>{{ proj.desc}}
+    </div>
+  {% endif %}
+    
 </div>
 
 <div style="margin-top: 45px"></div>
 {% endfor %}
-
-
-
-
-
 

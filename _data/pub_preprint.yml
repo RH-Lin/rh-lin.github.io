@@ -1,9 +1,9 @@
-- title: XXX
-  venue:
-    name: arXiv
-  year: 2025
-  authors: AAA
-  link:
-    paper: https://arxiv.org/abs/XXX
-    code: https://github.com/XXX
+# - title: XXX
+#   venue:
+#     name: arXiv
+#   year: 2025
+#   authors: AAA
+#   link:
+#     paper: https://arxiv.org/abs/XXX
+#     code: https://github.com/XXX
 

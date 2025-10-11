@@ -15,9 +15,9 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
 <div style="margin-top: 35px"></div>
 
+{% if site.data.pub_preprint %}
 ### Preprint<a name="preprint"></a>
 
-{% if site.data.pub_preprint %}
 {% for publi in site.data.pub_preprint %}
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
@@ -48,6 +48,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
 <div style="margin-top: 30px"></div>
 
+{% if site.data.pub_benchmark %}
 ### Benchmark<a name="benchmark"></a>
 
 {% for publi in site.data.pub_benchmark %}
@@ -58,12 +59,13 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
   <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[data\]</a>{% endif %}
 
 {% endfor %}
+{% endif %}
 
 <!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
-
+{% if site.data.pub_conference %}
 ### Conference<a name="conference"></a>
 
 {% for publi in site.data.pub_conference %}
@@ -74,11 +76,13 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
  {% if publi.highlight %}&nbsp;&nbsp;&nbsp;&nbsp;   <strong style="color:#DE426B;">({{ publi.highlight }})</strong>  {% endif %} &nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
 
 {% endfor %}
+{% endif %}
 
 <!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
+{% if site.data.pub_journal %}
 ### Journal<a name="journal"></a>
 
 {% for publi in site.data.pub_journal %}
@@ -86,15 +90,17 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>{{ publi.authors }} </em><br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ publi.venue.full }} {% if publi.venue.short %}(<strong>{{publi.venue.short}}</strong>){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}
+  <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
 
 {% endfor %}
+{% endif %}
 
 <!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
-### Others (Demos, Workshops, Tutorials)<a name="others"></a>
+{% if site.data.pub_other %}
+### Others (Tutorials，Books)<a name="others"></a>
 
 {% for publi in site.data.pub_other %}
 
@@ -104,6 +110,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
   <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}
 
 {% endfor %}
+{% endif %}
 
 
 

@@ -1,10 +1,113 @@
 
-
-- title: "XXXX"
+- title: "Adapt and Explore: Multimodal Mixup for Representation Learning"
   venue:
-    full: IEEE Transactions 
-    short: TPAMI
-  year: 2025
-  authors: AAA
+    full: ELSEVIER Information Fusion
+    short: INFFUS
+  year: 2024
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
   link:
-    paper: https://ieeexplore.ieee.org/XXX
+    paper: https://www.sciencedirect.com/science/article/abs/pii/S1566253523005328
+    code: https://github.com/RH-Lin/m3ixup
+
+- title: "MissModal: Increasing Robustness to Missing Modality in Multimodal Sentiment Analysis"
+  venue:
+    full: MIT Transactions of the Association for Computational Linguistics
+    short: TACL
+  year: 2024
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00628/118797
+    code: https://github.com/RH-Lin/MissModal
+  promote:
+    name: Presented at EMNLP 2023
+    link: https://aclanthology.org/2023.tacl-1.94/
+
+- title: "Multi-Task Momentum Distillation for Multimodal Sentiment Analysis"
+  venue:
+    full: IEEE Transactions on Affective Computing
+    short: TAFFC
+  year: 2023
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/abstract/document/10143237
+    code: https://github.com/RH-Lin/MTMD
+
+- title: "Dynamically Shifting Multimodal Representations via Hybrid-Modal Attention for Multimodal Sentiment Analysis"
+  venue:
+    full: IEEE Transactions on Multimedia
+    short: TMM
+  year: 2023
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/10214099
+    code: https://github.com/RH-Lin/MSG-MBA
+
+- title: "Prompt-guided Transformer and MLLM Interactive Learning for Text-Based Pedestrian Search"
+  venue:
+    full: IEEE Transactions on Information Forensics and Security
+    short: TIFS
+  year: 2025
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Tan Yap-Peng, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/11072213
+    code: #
+
+- title: "Mind the Inconsistent Semantics in Positive Pairs: Semantic Aligning and Multimodal Contrastive Learning for Text-based Pedestrian Search"
+  venue:
+    full: IEEE Transactions on Intelligent Transportation Systems
+    short: TITS
+  year: 2024
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/10565930
+    code: #
+
+- title: "Disentangling Modality and Posture Factors: Memory-Attention and Orthogonal Decomposition for Visible-Infrared Re-Identification"
+  venue:
+    full: IEEE Transactions on Neural Networks and Learning Systems
+    short: TNNLS
+  year: 2024
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/10500441
+    code: #
+
+- title: "Tri-Level Modality-Information Disentanglement for Visible-Infrared Person Re-Identification"
+  venue:
+    full: IEEE Transactions on Multimedia
+    short: TMM
+  year: 2024
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/10209282
+    code: #
+
+- title: "Mask-Aware Pseudo Label Denoising for Unsupervised Vehicle Re-Identification"
+  venue:
+    full: IEEE Transactions on Intelligent Transportation Systems
+    short: TITS
+  year: 2023
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/10007428
+    code: #
+
+- title: "MART: Mask-Aware Reasoning Transformer for Vehicle Re-identification"
+  venue:
+    full: IEEE Transactions on Intelligent Transportation Systems
+    short: TITS
+  year: 2023
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/9945658
+    code: #
+
+- title: "Identity-Unrelated Information Decoupling Model for Vehicle Re-Identification"
+  venue:
+    full: IEEE Transactions on Intelligent Transportation Systems
+    short: TITS
+  year: 2022
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  link:
+    paper: https://ieeexplore.ieee.org/document/9736328
+    code: #
