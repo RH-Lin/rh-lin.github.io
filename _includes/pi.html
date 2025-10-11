@@ -10,7 +10,7 @@
   <h3><strong>{{ member.name }}</strong></h3>
 </div>
 
-<ul class="social-icons hidden-xs hidden-sm" style="margin-left: -10pt;list-style: none">
+<ul class="social-icons hidden-xs hidden-sm" style="margin-left: -18pt;list-style: none">
   {% if member.identity %}
     <li><div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div></li>
   {% endif %}
@@ -52,56 +52,56 @@
   {% endif %}
 </ul>
 
-  <div class="visible-xs visible-sm">
-    <table>
-      <tbody>
-          <tr>
-            <td width="35%">
-              <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="40%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border-radius: 50%;object-fit: cover;" /></a>
-            </td>
-            <td>
-              <div id="toptitle" style="margin-left: auto">
-                <h3><strong>{{ member.name }}</strong></h3>
-              </div>
-            
-              {% if member.identity %}
-                <div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div>
-              {% endif %}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+<div class="visible-xs visible-sm">
+  <table>
+    <tbody>
+        <tr>
+          <td width="40%">
+            <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="50%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px;border-radius: 50%;object-fit: cover;" /></a>
+          </td>
+          <td>
+            <div id="toptitle" style="margin-left: auto">
+              <h3><strong>{{ member.name }}</strong></h3>
+            </div>
+          
+            {% if member.identity %}
+              <div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div>
+            {% endif %}
 
-    {% if member.email1 %}
-      <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.email2 %}
-      <a href="mailto:{{ member.email2 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.github %}
-      <a href="{{ member.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.googlescholar %}
-      <a href="{{ member.googlescholar }}"><i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.semanticscholar %}
-      <a href="{{ member.semanticscholar }}"><i class="ai ai-fw ai-semantic-scholar" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.researchgate %}
-      <a href="{{ member.researchgate }}"><i class="ai ai-fw ai-researchgate" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.dblp %}
-      <a href="{{ member.dblp }}"><i class="ai ai-fw ai-dblp" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.linkedin %}
-      <a href="{{ member.linkedin }}"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.twitter %}
-      <a href="{{ member.twitter }}"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if member.cv %}
-      <a href="{{ member.cv }}"><i class="fa fa-fw fa-book" aria-hidden="true"></i></a>
-    {% endif %}
-  </div>
+            {% if member.email1 %}
+              <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.email2 %}
+              <a href="mailto:{{ member.email2 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.github %}
+              <a href="{{ member.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.googlescholar %}
+              <a href="{{ member.googlescholar }}"><i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.semanticscholar %}
+              <a href="{{ member.semanticscholar }}"><i class="ai ai-fw ai-semantic-scholar" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.researchgate %}
+              <a href="{{ member.researchgate }}"><i class="ai ai-fw ai-researchgate" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.dblp %}
+              <a href="{{ member.dblp }}"><i class="ai ai-fw ai-dblp" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.linkedin %}
+              <a href="{{ member.linkedin }}"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.twitter %}
+              <a href="{{ member.twitter }}"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if member.cv %}
+              <a href="{{ member.cv }}"><i class="fa fa-fw fa-book" aria-hidden="true"></i></a>
+            {% endif %}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
   
 {% endfor %}
