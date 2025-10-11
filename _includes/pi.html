@@ -8,7 +8,7 @@
   </td>
 
   <td>
-    <div id="toptitle">
+    <div id="toptitle" style="margin-left: 20px">
       <h3><strong>{{ member.name }}</strong></h3>
     </div>
   </td>
@@ -17,43 +17,43 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if member.identity %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ member.identity }}</div></li>
+        <div style="white-space: normal; margin-bottom: 1em;">{{ member.identity }}</div>
       {% endif %}
       {% if member.location %}
-        <li><i class="fa fa-map-marker" aria-hidden="true"></i> {{ member.location }}</li>
+        <i class="fa fa-map-marker" aria-hidden="true"></i> {{ member.location }}
       {% endif %}
       {% if member.university %}
-        <li><i class="fa fa-university" aria-hidden="true"></i> {{ member.university }}</li>
+        <i class="fa fa-university" aria-hidden="true"></i> {{ member.university }}
       {% endif %}
       {% if member.email1 %}
-        <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email1 }}">  Email</a></li>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email1 }}">  Email</a>
       {% endif %}
       {% if member.email2 %}
-        <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email2 }}">  Email</a></li>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email2 }}">  Email</a>
       {% endif %}
       {% if member.github %}
-        <li><i class="fa fa-github"></i><a href="{{ member.github }}">  Github</a></li>
+        <i class="fa fa-github"></i><a href="{{ member.github }}">  Github</a>
       {% endif %}
       {% if member.googlescholar %}
-        <li><i class="ai ai-google-scholar"></i><a href="{{ member.googlescholar }}">  Google Scholar</a></li>
+        <i class="ai ai-google-scholar"></i><a href="{{ member.googlescholar }}">  Google Scholar</a>
       {% endif %}
       {% if member.semanticscholar %}
-        <li><i class="ai ai-semantic-scholar"></i><a href="{{ member.semanticscholar }}">  Semantic Scholar</a></li>
+        <i class="ai ai-semantic-scholar"></i><a href="{{ member.semanticscholar }}">  Semantic Scholar</a>
       {% endif %}
       {% if member.researchgate %}
-        <li><i class="ai ai-researchgate"></i><a href="{{ member.researchgate }}">  ResearchGate</a></li>
+        <i class="ai ai-researchgate"></i><a href="{{ member.researchgate }}">  ResearchGate</a>
       {% endif %}
       {% if member.dblp %}
-        <li><i class="ai ai-dblp"></i><a href="{{ member.dblp }}">  DBLP</a></li>
+        <i class="ai ai-dblp"></i><a href="{{ member.dblp }}">  DBLP</a>
       {% endif %}
       {% if member.linkedin %}
-        <li><i class="fa fa-linkedin"></i><a href="{{ member.linkedin }}">  LinkedIn</a></li>
+        <i class="fa fa-linkedin"></i><a href="{{ member.linkedin }}">  LinkedIn</a>
       {% endif %}
       {% if member.twitter %}
-        <li><i class="fa fa-twitter"></i><a href="{{ member.twitter }}">  Twitter</a></li>
+        <i class="fa fa-twitter"></i><a href="{{ member.twitter }}">  Twitter</a>
       {% endif %}
       {% if member.cv %}
-        <li><i class="fa fa-book"></i><a href="{{ member.cv }}">  CV</a></li>
+        <i class="fa fa-book"></i><a href="{{ member.cv }}">  CV</a>
       {% endif %}
     </ul>
       <div class="author__urls_sm">
