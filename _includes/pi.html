@@ -6,11 +6,11 @@
 </div>
 <!-- </div> -->
 
-<div id="toptitle" style="margin-left: 10pt">
+<div class="hidden-xs hidden-sm" id="toptitle" style="margin-left: 10pt">
   <h3><strong>{{ member.name }}</strong></h3>
 </div>
 
-<ul class="social-icons hidden-xs hidden-sm" style="margin-left: -15pt;list-style: none">
+<ul class="social-icons hidden-xs hidden-sm" style="margin-left: -10pt;list-style: none">
   {% if member.identity %}
     <li><div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div></li>
   {% endif %}
@@ -53,18 +53,25 @@
 </ul>
 
   <div class="visible-xs visible-sm">
-    <td width="35%">
-      <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="30%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border-radius: 50%;object-fit: cover;" /></a>
-    </td>
-    <td>
-      <div id="toptitle" style="margin-left: auto">
-        <h3><strong>{{ member.name }}</strong></h3>
-      </div>
-    
-      {% if member.identity %}
-        <div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div>
-      {% endif %}
-    </td>
+    <table>
+      <tbody>
+          <tr>
+            <td width="35%">
+              <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="40%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border-radius: 50%;object-fit: cover;" /></a>
+            </td>
+            <td>
+              <div id="toptitle" style="margin-left: auto">
+                <h3><strong>{{ member.name }}</strong></h3>
+              </div>
+            
+              {% if member.identity %}
+                <div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div>
+              {% endif %}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
     {% if member.email1 %}
       <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
     {% endif %}
