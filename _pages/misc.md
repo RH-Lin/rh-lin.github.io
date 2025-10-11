@@ -1,7 +1,8 @@
 ---
 title: "Ronghao Lin - Miscellaneous"
 layout: textlay
-excerpt: "Ronghao Lin -- Miscellaneous"
+excerpt: "Ronghao Lin - Miscellaneous"
+sitemap: false
 permalink: /misc
 ---
 

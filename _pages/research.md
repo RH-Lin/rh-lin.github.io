@@ -1,7 +1,7 @@
 ---
 title: "Ronghao Lin - Research"
 layout: textlay
-excerpt: "Ronghao Lin -- Research"
+excerpt: "Ronghao Lin - Research"
 sitemap: false
 permalink: /research
 ---
