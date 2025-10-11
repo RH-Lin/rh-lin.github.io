@@ -26,6 +26,7 @@ Research Statement ...
 
 Below split previous representative researches based on topic [\[All publications\]]({{ site.url }}{{ site.baseurl }}/publication):
 
+<!-- ------------------------------------------- -->
 
 <div style="margin-top: 40px"></div>
 
@@ -35,14 +36,32 @@ Below split previous representative researches based on topic [\[All publication
 
 - **Multimodal Fusion**:
 
-&nbsp;&nbsp; MTMD, MMCL, MSG-MBA
+<span style="padding-left: 40px;">MTMD, MMCL, MSG-MBA</span>
 
 - **Missing Modality Issue**:
 
-&nbsp;&nbsp; MTMD, MMCL, MSG-MBA
+<span style="padding-left: 40px;">M3ixup, [CyIN](https://github.com/RH-Lin/CyIN), [MMPDA](https://github.com/RH-Lin/MMPDA), [MissModal](https://github.com/RH-Lin/MissModal)</span>
 
 </div>
 
+<!-- ------------------------------------------- -->
+
+#### **Multimodal Empathetic Response**
+
+<div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;line-height: 19px;">
+
+- **Video-to-video Conversation System**:
+
+<span style="padding-left: 40px;">[E3RG](https://github.com/RH-Lin/E3RG)</span>
+
+- **Digital Human Generation**:
+
+
+</div>
+
+
+
+<!-- ------------------------------------------- -->
 -----------
 
 I have also worked on the following topics:

@@ -9,13 +9,15 @@ permalink: /publication
 # Publications
 
 `#` denotes equal contribution, `*` denotes correspondence.
-See full publications in [Google Scholar](https://scholar.google.com/citations?user=YGDX46AAAAAJ). <br>
-Jump to [Preprint](#preprint), [Survey](#survey), [Benchmark](#benchmark), [Conference](#conference), [Journal](#journal), [Others](#others).
+See full publications in [\[Google Scholar\]](https://scholar.google.com/citations?user=YGDX46AAAAAJ). <br>
+
+Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#benchmark), [\[Conference\]](#conference), [\[\[Journal\]](#journal), [\[Others\]](#others).
 
 <div style="margin-top: 35px"></div>
 
 ### Preprint<a name="preprint"></a>
 
+{% if site.data.pub_preprint %}
 {% for publi in site.data.pub_preprint %}
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
@@ -23,15 +25,15 @@ Jump to [Preprint](#preprint), [Survey](#survey), [Benchmark](#benchmark), [Conf
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>{{ publi.venue.name }}</strong> &nbsp;&nbsp; {{ publi.year }} &nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
 
 {% endfor %}
+{% endif %}
 
-
-
+<!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
 ### Survey<a name="survey"></a>
 
-
+{% if site.data.pub_survey %}
 {% for publi in site.data.pub_survey %}
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
@@ -40,15 +42,13 @@ Jump to [Preprint](#preprint), [Survey](#survey), [Benchmark](#benchmark), [Conf
   <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[data\]</a>{% endif %}
 
 {% endfor %}
+{% endif %}
 
-
-
-
+<!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
 ### Benchmark<a name="benchmark"></a>
-
 
 {% for publi in site.data.pub_benchmark %}
 
@@ -59,9 +59,7 @@ Jump to [Preprint](#preprint), [Survey](#survey), [Benchmark](#benchmark), [Conf
 
 {% endfor %}
 
-
-
-
+<!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
@@ -77,9 +75,7 @@ Jump to [Preprint](#preprint), [Survey](#survey), [Benchmark](#benchmark), [Conf
 
 {% endfor %}
 
-
-
-
+<!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
@@ -94,15 +90,11 @@ Jump to [Preprint](#preprint), [Survey](#survey), [Benchmark](#benchmark), [Conf
 
 {% endfor %}
 
-
-
-
-
+<!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
 ### Others (Demos, Workshops, Tutorials)<a name="others"></a>
-
 
 {% for publi in site.data.pub_other %}
 
