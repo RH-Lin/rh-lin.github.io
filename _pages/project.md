@@ -16,7 +16,7 @@ permalink: /project
 <div class="row">
 <h3> {{ proj.topic }}</h3>
 <div  style="margin-top: -15px" >
-  <center><img src="{{ site.url }}{{ site.baseurl }}/assets/proj_imgs/{{proj.photo.name}}" class="img-responsive" width="{{proj.photo.scale}}" alt="centered image"  style="margin-left: 20px" /></center>
+  <center><img src="{{ site.url }}{{ site.baseurl }}/assets/project_imgs/{{proj.photo.name}}" class="img-responsive" width="{{proj.photo.scale}}" alt="centered image"  style="margin-left: 20px" /></center>
 </div>
   
 <div  style="margin-left: 20px;margin-top: -20px">
