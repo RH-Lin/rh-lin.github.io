@@ -190,15 +190,15 @@
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
-  // @include breakpoint($large) {
-  //   display: block;
-  //   position: relative;
-  //   margin: 0;
-  //   padding: 0;
-  //   border: 0;
-  //   background: transparent;
-  //   box-shadow: none;
-  // }
+  @include breakpoint($large) {
+    display: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
 
   &:before {
     display: block;
