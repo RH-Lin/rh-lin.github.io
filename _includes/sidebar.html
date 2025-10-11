@@ -1,7 +1,10 @@
 <div class="container-fluid">
-    <div class="sticky">
+    <div class="sticky hidden-xs hidden-sm">
         <div class="col-sm-2">
         {% if site.title %}{% include pi.html %}{% endif %}
         </div>
+    </div>
+    <div class="visible-xs visible-sm">
+        {% if site.title %}{% include pi.html %}{% endif %}
     </div>
 </div>
