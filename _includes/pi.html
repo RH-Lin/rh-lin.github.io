@@ -1,16 +1,16 @@
 
 {% for member in site.data.pi %}
 
-<td width="35%">
+<div class="hidden-xs hidden-sm">
   <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="90%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border-radius: 50%;object-fit: cover;" /></a>
-</td>
+</div>
 <!-- </div> -->
 
 <div id="toptitle" style="margin-left: 10pt">
   <h3><strong>{{ member.name }}</strong></h3>
 </div>
 
-<ul class="social-icons hidden-xs hidden-sm" style="margin-left: -20pt;list-style: none">
+<ul class="social-icons hidden-xs hidden-sm" style="margin-left: -15pt;list-style: none">
   {% if member.identity %}
     <li><div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div></li>
   {% endif %}
@@ -53,19 +53,18 @@
 </ul>
 
   <div class="visible-xs visible-sm">
-    <!-- <div class="author__avatar"> -->
     <td width="35%">
       <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="30%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border-radius: 50%;object-fit: cover;" /></a>
     </td>
-    <!-- </div> -->
-
-    <div id="toptitle" style="margin-left: auto">
-      <h3><strong>{{ member.name }}</strong></h3>
-    </div>
+    <td>
+      <div id="toptitle" style="margin-left: auto">
+        <h3><strong>{{ member.name }}</strong></h3>
+      </div>
     
-    {% if member.identity %}
-      <li><div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div></li>
-    {% endif %}
+      {% if member.identity %}
+        <div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div>
+      {% endif %}
+    </td>
     {% if member.email1 %}
       <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
     {% endif %}
