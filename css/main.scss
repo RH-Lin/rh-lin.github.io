@@ -111,13 +111,11 @@ pubtit {
   position: fixed;        /* 关键属性：固定在视窗中 */
   top: 0;                 /* 顶部对齐 */
   left: 0;                /* 左侧对齐（根据布局可调整） */
-  height: 100vh;          /* 占满整个视窗高度 */
+  width: 240px;           /* 固定宽度，根据你的布局调整 */
+  height: auto;          /* 占满整个视窗高度 */
   overflow-y: auto;       /* 超出部分可以滚动 */
   background: white;      /* 设置背景，避免与内容重叠时透明 */
-  margin-top: 40pt;
-  margin-left: 40pt;
   padding: 20px;          /* 内边距，根据需要调整 */
-  width: 260px;           /* 固定宽度，根据你的布局调整 */
   z-index: 1000;          /* 确保位于内容上方 */
   border-right: 0px solid #eee; /* 可选：添加分隔线 */
 }
@@ -135,4 +133,3 @@ pubtit {
     padding: 10px 15px;
     z-index: 1000;
   }
-}
