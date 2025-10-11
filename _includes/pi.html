@@ -17,7 +17,7 @@
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
-    <ul class="author__urls social-icons">
+    <ul class="author__urls social-icons hidden-xs hidden-sm">
       {% if member.identity %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ member.identity }}</div></li>
       {% endif %}
@@ -58,7 +58,7 @@
         <li><i class="fa fa-fw fa-book"></i><a href="{{ member.cv }}">  CV</a></li>
       {% endif %}
     </ul>
-      <div class="author__urls_sm">
+      <div class="author__urls_sm visible-xs visible-sm">
         {% if member.email1 %}
           <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
         {% endif %}
