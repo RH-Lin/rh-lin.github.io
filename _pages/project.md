@@ -15,7 +15,7 @@ permalink: /project
 {% for proj in site.data.project %}
 <div class="row">
 
-<span style="padding-left: 20px;"><h3>{{ proj.topic }}</h3></span>
+### {{ proj.topic }}<a name="topic"></a>
 
 {% if proj.photo %}
 <table>
