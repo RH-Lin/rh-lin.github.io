@@ -11,7 +11,9 @@ permalink: /
 <!-- ------------------------------------------- -->
 
 ### 🎓 Profile
-I am a highly-motivated Ph.D. student with foundations of computer science, artificial intelligence, physics, and finance. I am a third-year Ph.D. student in Sun Yat-sen University (SYSU) supervised by Prof. [Haifeng Hu](https://seit.sysu.edu.cn/teacher/HuHaifeng).
+I am highly-motivated with foundations of computer science, artificial intelligence, physics, and finance. 
+
+I am a third-year Ph.D. student in Sun Yat-sen University (SYSU) supervised by Prof. [Haifeng Hu](https://seit.sysu.edu.cn/teacher/HuHaifeng).
 {: .text-justify}
 
 I am currently working as a joint Ph.D. in Nanyang Technological University (NTU), supervised by Prof. [Yap-peng Tan](https://personal.ntu.edu.sg/eyptan) at [CARTIN](https://www.ntu.edu.sg/cartin).
