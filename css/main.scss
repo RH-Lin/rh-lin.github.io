@@ -106,3 +106,21 @@ pubtit {
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
+
+
+/*
+   Sticky, fixed to top content
+   ========================================================================== */
+
+.sticky {
+  @include breakpoint($large) {
+    @include clearfix();
+    position: -webkit-sticky;
+    position: sticky;
+    top: 6em;
+
+    > * {
+      display: block;
+    }
+  }
+}

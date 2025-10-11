@@ -18,7 +18,7 @@
 
     <ul class="author__urls social-icons hidden-xs hidden-sm" style="margin-left: -10pt">
       {% if member.identity %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ member.identity }}</div></li>
+        <li><div style="white-space: normal; margin-bottom: 1em;"><i>{{ member.identity }}</i></div></li>
       {% endif %}
       {% if member.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location }}</li>
@@ -61,7 +61,7 @@
       <div class="author__urls_sm visible-xs visible-sm">
         <div class="author__avatar">
         <!-- <td width="35%"> -->
-          <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="30%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;" /></a>
+          <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="30%" style="block:inline; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border-radius: 50%;object-fit: cover;" /></a>
         <!-- </td> -->
         </div>
 
@@ -69,6 +69,9 @@
           <h3><strong>{{ member.name }}</strong></h3>
         </div>
         
+        {% if member.identity %}
+          <li><div style="white-space: normal; margin-bottom: 1em;"><i>{{ member.identity }}</i></div></li>
+        {% endif %}
         {% if member.email1 %}
           <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
         {% endif %}

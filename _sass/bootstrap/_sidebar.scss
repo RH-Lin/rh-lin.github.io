@@ -191,7 +191,7 @@
   cursor: default;
 
   @include breakpoint($large) {
-    display: none;
+    display: block;
     position: relative;
     margin: 0;
     padding: 0;
