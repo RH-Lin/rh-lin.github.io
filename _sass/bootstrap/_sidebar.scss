@@ -269,18 +269,3 @@
     display: none;
   }
 }
-
-/* 默认：桌面端显示完整版，隐藏小图标版 */
-.author__urls_sm {
-  display: none;
-}
-
-/* 在小屏幕时（如小于768px）隐藏完整版，显示小图标版 */
-@media screen and (max-width: 768px) {
-  .author__urls {
-    display: none;
-  }
-  .author__urls_sm {
-    display: block;
-  }
-}
