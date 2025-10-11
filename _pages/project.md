@@ -13,8 +13,6 @@ permalink: /project
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 {% for proj in site.data.project %}
-<div class="row">
-
 ### {{ proj.topic }}<a name="topic"></a>
 
 {% if proj.photo %}
@@ -28,7 +26,7 @@ permalink: /project
       </td>
       <td>
         <div  style="margin-left: 50px;margin-top: -20px">
-          <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ proj.title }}</strong> {% if proj.link %}&nbsp;&nbsp;<a href="{{ proj.link }}">[link]</a>{% endif %} <br />
+          <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ proj.title }}</strong> {% if proj.link %}&nbsp;&nbsp;<a href="{{ proj.link }}">\[link\]</a>{% endif %} <br />
           <strong style="font-size: 17px;">Leader: </strong>{{ proj.leader }}<br/>
           <strong style="font-size: 17px;">Time: </strong>{{ proj.time }}<br/>
           <strong style="font-size: 17px;">Intro: </strong>{{ proj.desc }}
@@ -39,14 +37,12 @@ permalink: /project
 </table>
 {% else %} 
 <div  style="margin-left: 20px;margin-top: -20px">
-  <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ proj.title }}</strong> {% if proj.link %}&nbsp;&nbsp;<a href="{{ proj.link }}">[link]</a>{% endif %} <br />
+  <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ proj.title }}</strong> {% if proj.link %}&nbsp;&nbsp;<a href="{{ proj.link }}">\[link\]</a>{% endif %} <br />
   <strong style="font-size: 17px;">Leader: </strong>{{ proj.leader }}<br/>
   <strong style="font-size: 17px;">Time: </strong>{{ proj.time }}<br/>
   <strong style="font-size: 17px;">Intro: </strong>{{ proj.desc }}
 </div>
 {% endif %}
-    
-</div>
 
 <div style="margin-top: 45px"></div>
 {% endfor %}
