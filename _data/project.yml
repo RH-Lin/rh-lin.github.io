@@ -8,11 +8,11 @@
 #   link: https://lvchen.wixsite.com/automan
 #   desc: "Research cooperation. "
 
-- topic: The University of Hongkong HKU-MM Lab Summer Research
+- topic: HKU-MM Lab Summer Research
   title: "Unifying Multimodal Generation and Perception via Energy-based Diffusion"
   photo:
     name: project4_energy_diffusion.png
-    scale: 100%
+    scale: 110%
   time: 2021-2024
   leader: Prof. Ping Luo
   link: https://mmlab.hk/

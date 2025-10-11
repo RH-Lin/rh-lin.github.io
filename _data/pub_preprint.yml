@@ -2,7 +2,7 @@
 #   venue:
 #     name: arXiv
 #   year: 2025
-#   authors: AAA
+#   authors: <strong>Ronghao Lin<sup>*</sup></strong>
 #   link:
 #     paper: https://arxiv.org/abs/XXX
 #     code: https://github.com/XXX

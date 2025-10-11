@@ -8,10 +8,9 @@ permalink: /publication
 
 # Publications
 
-`#` denotes equal contribution, `*` denotes correspondence.
-See full publications in [\[Google Scholar\]](https://scholar.google.com/citations?user=YGDX46AAAAAJ). <br>
+`#` denotes equal contribution, `*` denotes correspondence. Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#benchmark), [\[Conference\]](#conference), [\[Journal\]](#journal), [\[Others\]](#others).
 
-Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#benchmark), [\[Conference\]](#conference), [\[Journal\]](#journal), [\[Others\]](#others).
+<!-- See full publications in [\[Google Scholar\]](https://scholar.google.com/citations?user=YGDX46AAAAAJ). <br> -->
 
 <div style="margin-top: 35px"></div>
 
@@ -22,7 +21,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>{{ publi.authors }} </em><br />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>{{ publi.venue.name }}</strong> &nbsp;&nbsp; {{ publi.year }} &nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>{{ publi.venue.name }}</strong> &nbsp;&nbsp; {{ publi.year }} &nbsp;&nbsp; <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
 
 {% endfor %}
 {% endif %}
@@ -38,7 +37,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>{{ publi.authors }} </em><br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{ publi.venue.note }}){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{ publi.venue.note }}){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;
   <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[data\]</a>{% endif %}
 
 {% endfor %}
@@ -55,7 +54,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>{{ publi.authors }} </em><br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{publi.venue.note}}){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{publi.venue.note}}){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;
   <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[data\]</a>{% endif %}
 
 {% endfor %}
@@ -72,7 +71,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>{{ publi.authors }} </em><br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{publi.venue.note}}){% endif %} &nbsp;&nbsp; {{ publi.year }} {% if publi.highlight %}&nbsp;&nbsp; <strong style="color:#DE426B;">{{ publi.highlight }}</strong>  {% endif %} &nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{publi.venue.note}}){% endif %} &nbsp;&nbsp; {{ publi.year }} {% if publi.highlight %}&nbsp;&nbsp; <strong style="color:#DE426B;">{{ publi.highlight }}</strong>  {% endif %} &nbsp;&nbsp; <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
 
 {% endfor %}
 {% endif %}
@@ -88,7 +87,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>{{ publi.authors }} </em><br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ publi.venue.full }} {% if publi.venue.short %}(<strong>{{publi.venue.short}}</strong>){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ publi.venue.full }} {% if publi.venue.short %}(<strong>{{publi.venue.short}}</strong>){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;
   <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}&nbsp;{% if publi.promote %}<a href="{{ publi.promote.link }}">\[{{ publi.promote.name }}\]</a>{% endif %}
 
 {% endfor %}
@@ -105,7 +104,7 @@ Jump to [\[Preprint\]](#preprint), [\[Survey\]](#survey), [\[Benchmark\]](#bench
 
   <span style="font-size: 20px;">&#8226;</span> &nbsp; <strong style="font-size: 17px;">{{ publi.title }}</strong> <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>{{ publi.authors }} </em><br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{publi.venue.note}}){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>{{ publi.venue.name }}</strong> {% if publi.venue.note %} ({{publi.venue.note}}){% endif %} &nbsp;&nbsp; {{ publi.year }}&nbsp;&nbsp;
   <a href="{{ publi.link.paper }}">\[paper\]</a>&nbsp;{% if publi.link.code %}<a href="{{ publi.link.code }}">\[code\]</a>{% endif %}
 
 {% endfor %}
