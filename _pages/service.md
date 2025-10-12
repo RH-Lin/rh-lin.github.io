@@ -74,7 +74,7 @@ permalink: /service
 
 - **IEEE** Transactions on Affective Computing (**TAFFC**), Transactions on Neural Networks and Learning Systems (**TNNLS**), Access
 - **IEEE/ACM** Transactions on Audio, Speech, and Language Processing (**TASLP**)
-- **Elsevier** Information Fusion (**INFFUS**), Knowledge-Based Systems (**KBS**), Neurocomputing (**NEUCOM**)
+- **Elsevier** Information Fusion (**INFFUS**), Knowledge-Based Systems (**KBS**), Neurocomputing (**NEUCOM**), Applied soft computing (ASC)
 - **SpringerNature** BioData Mining, Machine Learning (ML), Multimedia Systems (MS), Knowledge and Information Systems (KAIS), Discover Artificial Intelligence (DAI), Scientific Reports (SR)
 - ...
 
