@@ -40,7 +40,7 @@ Below split previous representative researches based on topic [\[All publication
 
 - **Missing Modality Issue**:
 
-<span style="padding-left: 40px;">[CyIN](https://github.com/RH-Lin/CyIN), [MMPDA](https://github.com/RH-Lin/MMPDA), M3ixup, [MissModal](https://github.com/RH-Lin/MissModal)</span>
+<span style="padding-left: 40px;">[CyIN](https://github.com/RH-Lin/CyIN), [MMPDA](https://github.com/RH-Lin/MMPDA), [M3ixup](https://github.com/RH-Lin/m3ixup), [MissModal](https://github.com/RH-Lin/MissModal)</span>
 
 </div>
 
