@@ -1,10 +1,12 @@
-<div class="container-fluid">
-    <div class="sticky hidden-xs hidden-sm">
-        <div style="margin-left:0pt; margin-right:10pt; ">
-        {% if site.title %}{% include pi.html %}{% endif %}
-        </div>
+---
+layout: default
+---
+
+<div class="sticky hidden-xs hidden-sm">
+    <div style="margin-left:0pt; margin-right:10pt; ">
+    {% if site.title %}{% include pi.html %}{% endif %}
     </div>
-    <div class="visible-xs visible-sm" style="margin-left:-10pt">
-        {% if site.title %}{% include pi.html %}{% endif %}
-    </div>
+</div>
+<div class="visible-xs visible-sm" style="margin-left:-10pt">
+    {% if site.title %}{% include pi.html %}{% endif %}
 </div>
