@@ -2,10 +2,17 @@
 {% for member in site.data.pi %}
 
 <!-- <a href="{{site.url}}{{site.baseurl}}/"></a> -->
-
-<div class="hidden-xs hidden-sm">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="60%" style="display: block; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border: 2px solid #ccc;border-radius: 50%;object-fit: cover" />
-</div>
+<table>
+  <tbody>
+    <tr>
+      <td width="100%">
+        <div class="hidden-xs hidden-sm">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="60%" style="display: block; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;border: 2px solid #ccc;border-radius: 50%;object-fit: cover" />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="hidden-xs hidden-sm" id="toptitle" style="margin-left: 15pt">
   <h2><strong>{{ member.name }}</strong></h2>
