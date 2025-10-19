@@ -19,7 +19,7 @@ permalink: /project
 <table>
   <tbody>
     <tr>
-      <td width="25%">
+      <td width="35%">
         <div  style="margin-top: -5px" >
           <img src="{{ site.url }}{{ site.baseurl }}/assets/project_imgs/{{proj.photo.name}}" class="img-responsive" width="{{proj.photo.scale}}" alt="centered image"  style="margin-left: 10px;margin-right: 10px; border: 2px solid #ccc; border-radius: 8px;" />
         </div>
