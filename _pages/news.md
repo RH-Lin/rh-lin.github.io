@@ -1,6 +1,6 @@
 ---
 title: "Ronghao Lin - News"
-layout: textlay
+layout: textlayout
 excerpt: "Ronghao Lin - News"
 sitemap: false
 permalink: /news

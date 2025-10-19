@@ -1,6 +1,6 @@
 ---
 title: "Ronghao Lin - Award"
-layout: textlay
+layout: textlayout
 excerpt: "Ronghao Lin - Award"
 sitemap: false
 permalink: /award

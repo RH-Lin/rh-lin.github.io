@@ -1,6 +1,6 @@
 ---
 title: "Ronghao Lin - Teaching"
-layout: textlay
+layout: textlayout
 excerpt: "Ronghao Lin - Teaching"
 sitemap: false
 permalink: /teaching

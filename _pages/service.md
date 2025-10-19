@@ -1,6 +1,6 @@
 ---
 title: "Ronghao Lin - Service"
-layout: textlay
+layout: textlayout
 excerpt: "Ronghao Lin - Service"
 sitemap: false
 permalink: /service

@@ -1,6 +1,6 @@
 ---
 title: "Ronghao Lin - Publication"
-layout: textlay
+layout: textlayout
 excerpt: "Ronghao Lin - Publication"
 sitemap: false
 permalink: /publication

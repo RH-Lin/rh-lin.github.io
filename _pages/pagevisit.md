@@ -1,6 +1,6 @@
 ---
 title: "Ronghao Lin - Pagevisit"
-layout: textlay
+layout: textlayout
 excerpt: "Ronghao Lin - Pagevisit"
 sitemap: false
 permalink: /pagevisit
