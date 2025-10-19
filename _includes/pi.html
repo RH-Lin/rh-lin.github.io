@@ -57,11 +57,11 @@
   <table>
     <tbody>
         <tr>
-          <td width="35%">
+          <td width="25%">
             <a id="profile" href="{{site.url}}{{site.baseurl}}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="90%" style="display: block; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px;border: 2px solid #ccc;border-radius: 50%;object-fit: cover;" /></a>
           </td>
           <td>
-            <div id="toptitle" style="margin-left: 30px;margin-top: -10px;">
+            <div id="toptitle" style="margin-left: 20px;margin-top: -10px;">
               <h2><strong>{{ member.name }}</strong></h2>
             </div>
           
@@ -69,7 +69,7 @@
               <div style="white-space: normal; margin-bottom: 1em; margin-left: 32px;"><h4><i>{{ member.identity }}</i></h4></div>
             {% endif %}
 
-            <div style="margin-left: 30px">
+            <div style="margin-left: 20px">
               {% if member.email1 %}
                 <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
               {% endif %}
