@@ -107,7 +107,7 @@ pubtit {
 	margin-bottom: 6px;
 }
 
-/* 让 sidebar 固定但在 container-fluid 内 */
+/* 让 sidebar 固定 */
 .sticky {
   margin-left: 0px;
   margin-right: 1px;
@@ -116,5 +116,4 @@ pubtit {
   align-self: flex-start;
   height: fit-content;
   border-right: 0px;
-  overflow-y: auto;
 }
