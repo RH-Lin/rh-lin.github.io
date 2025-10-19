@@ -107,15 +107,14 @@ pubtit {
 	margin-bottom: 6px;
 }
 
-// /* 让 sidebar 固定 */
-// .sticky {
-//   position: fixed; // fixed;
-//   max-width: 400px;
-// 	padding-left: 16px;
-// 	padding-right: 16px;
-//   margin-left: 0px;
-//   margin-right: 0px;
-//   text-align: left;
-//   width: fit-content;
-//   height: fit-content;
-// }
+/* 让 sidebar 固定 */
+.sticky {
+  position: fixed; // fixed;
+	padding-left: 1px;
+	padding-right: 1px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: left;
+  width: fit-content;
+  height: fit-content;
+}
