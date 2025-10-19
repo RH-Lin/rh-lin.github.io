@@ -40,7 +40,7 @@ I also extensively explore the application of AI for science, cognitive computin
 
 - **Multimodal Affective Computing**
 
-<span style="padding-left: 40px;">MTMD, MMCL, MSG-MBA</span>
+<span style="padding-left: 40px;">[MTMD](https://github.com/RH-Lin/MTMD), MMCL, MSG-MBA</span>
 
 </div>
 
