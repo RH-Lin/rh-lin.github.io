@@ -109,12 +109,12 @@ pubtit {
 
 /* 让 sidebar 固定 */
 .sticky {
+  position: fixed; // fixed;
   max-width: 400px;
 	padding-left: 16px;
 	padding-right: 16px;
   margin-left: 0px;
   margin-right: 1px;
-  position: fixed; // fixed;
   text-align: left;
   width: fit-content;
   height: fit-content;
