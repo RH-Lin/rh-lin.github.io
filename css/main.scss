@@ -43,7 +43,7 @@ pubtit {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1300px; /* or 950px */
+  max-width: 1400px; /* or 950px */
 }
 
 /* Home, News */
@@ -110,7 +110,7 @@ pubtit {
 /* 让 sidebar 固定但在 container-fluid 内 */
 .sticky {
   margin-left: 0px;
-  margin-right: 6px;
+  margin-right: 1px;
   position: fixed;
   text-align: left;
   align-self: flex-start;
