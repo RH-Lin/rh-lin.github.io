@@ -60,7 +60,7 @@ permalink: /service
 
 ### Conference Program Committee Member
 
-- AAAI 2025
+- AAAI 2026
 - ACL 2024/2025
 - ACMMM 2025
 - EMNLP 2025
