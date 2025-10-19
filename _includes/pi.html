@@ -1,15 +1,15 @@
 
 {% for member in site.data.pi %}
 
-<div class="col-sm-3 hidden-xs hidden-sm">
-  <a href="{{site.url}}{{site.baseurl}}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="50%" style="block:inline; margin-left:5pt; margin-right:0pt; margin-top:20px; margin-bottom:20px;border: 2px solid #ccc;border-radius: 50%;object-fit: cover" /></a>
+<div class="hidden-xs hidden-sm">
+  <a href="{{site.url}}{{site.baseurl}}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="50%" style="block:inline; margin-left:5pt; margin-right:10pt; margin-top:20px; margin-bottom:20px;border: 2px solid #ccc;border-radius: 50%;object-fit: cover" /></a>
 </div>
 
-<div class="col-sm-3 hidden-xs hidden-sm" id="toptitle" style="margin-left: -5pt">
+<div class="hidden-xs hidden-sm" id="toptitle" style="margin-left: -5pt">
   <h1><strong>{{ member.name }}</strong></h1>
 </div>
 
-<ul class="col-sm-3 social-icons hidden-xs hidden-sm" style="margin-left: -14pt;list-style: none">
+<ul class="social-icons hidden-xs hidden-sm" style="margin-left: -14pt;list-style: none">
   {% if member.identity %}
     <li><div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div></li>
   {% endif %}
