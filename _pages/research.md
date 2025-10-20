@@ -83,7 +83,7 @@ I have also worked on the following topics:
   - Controllable World Model
 
 
-<div style="margin-top: 35px"></div>
+<div style="margin-top: 15px"></div>
 
 
 

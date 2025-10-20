@@ -78,3 +78,4 @@ permalink: /service
 - **SpringerNature** BioData Mining, Machine Learning (ML), Multimedia Systems (MS), Knowledge and Information Systems (KAIS), Discover Artificial Intelligence (DAI), Scientific Reports (SR)
 - ...
 
+<div style="margin-top: 15px"></div>

@@ -20,8 +20,10 @@ permalink: /misc
 
 <!-- ------------------------------------------- -->
 
-<div style="margin-top: 30px"></div>
+<!-- <div style="margin-top: 30px"></div> -->
 
 <!-- <p align="center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/misc_images/1.png" width="50%"/>
 </p> -->
+
+<div style="margin-top: 15px"></div>
