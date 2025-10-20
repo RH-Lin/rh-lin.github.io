@@ -115,6 +115,6 @@ pubtit {
   margin-left: 0px;
   margin-right: 0px;
   text-align: left;
-  width: 225px;        /* 固定宽度 */
+  width: 16vw; /* 占视口宽度的15%，随屏幕变化 */
   max-width: 100%;     /* 防止溢出 */
 }
