@@ -1,130 +1,76 @@
+
 {% for member in site.data.pi %}
 
-<!-- Desktop Sidebar -->
-<div class="hidden-xs hidden-sm" style="padding: 20px 15px;">
-  <div style="text-align: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" 
-         class="img-responsive" 
-         style="width: 100%; max-width: 200px; display: block; margin: 0 auto 20px; border: 2px solid #ccc; border-radius: 50%; object-fit: cover;" />
-  </div>
+<!-- <a id="profile" href="{{site.url}}{{site.baseurl}}/"></a> -->
 
-  <div id="toptitle" style="text-align: center; margin-bottom: 20px;">
-    <h3><strong>{{ member.name }}</strong></h3>
-  </div>
-
-  <ul class="social-icons" style="list-style: none; padding: 0; margin: 0;">
-    {% if member.identity %}
-      <li style="margin-bottom: 1em;"><h4 style="margin: 0;"><i>{{ member.identity }}</i></h4></li>
-    {% endif %}
-    {% if member.location %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location }}</li>
-    {% endif %}
-    {% if member.university %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-university" aria-hidden="true"></i> {{ member.university }}</li>
-    {% endif %}
-    {% if member.email1 %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email1 }}"> Email</a></li>
-    {% endif %}
-    {% if member.email2 %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email2 }}"> Email</a></li>
-    {% endif %}
-    {% if member.github %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-github"></i><a href="{{ member.github }}"> Github</a></li>
-    {% endif %}
-    {% if member.googlescholar %}
-      <li style="margin-bottom: 8px;"><i class="ai ai-fw ai-google-scholar"></i><a href="{{ member.googlescholar }}"> Google Scholar</a></li>
-    {% endif %}
-    {% if member.semanticscholar %}
-      <li style="margin-bottom: 8px;"><i class="ai ai-fw ai-semantic-scholar"></i><a href="{{ member.semanticscholar }}"> Semantic Scholar</a></li>
-    {% endif %}
-    {% if member.researchgate %}
-      <li style="margin-bottom: 8px;"><i class="ai ai-fw ai-researchgate"></i><a href="{{ member.researchgate }}"> ResearchGate</a></li>
-    {% endif %}
-    {% if member.dblp %}
-      <li style="margin-bottom: 8px;"><i class="ai ai-fw ai-dblp"></i><a href="{{ member.dblp }}"> DBLP</a></li>
-    {% endif %}
-    {% if member.linkedin %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-linkedin"></i><a href="{{ member.linkedin }}"> LinkedIn</a></li>
-    {% endif %}
-    {% if member.twitter %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-twitter"></i><a href="{{ member.twitter }}"> Twitter</a></li>
-    {% endif %}
-    {% if member.cv %}
-      <li style="margin-bottom: 8px;"><i class="fa fa-fw fa-book"></i><a href="{{ member.cv }}"> CV</a></li>
-    {% endif %}
-  </ul>
+<div class="hidden-xs">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="150vw" style="display: block; margin-left:20px; margin-right:-10px; margin-top:20px; margin-bottom:20px;border: 2px solid #ccc;border-radius: 50%;object-fit: cover" />
 </div>
 
-<!-- Tablet Sidebar -->
-<div class="visible-sm hidden-xs" style="padding: 15px 10px;">
-  <div style="text-align: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" 
-         class="img-responsive" 
-         style="width: 100%; max-width: 150px; display: block; margin: 0 auto 15px; border: 2px solid #ccc; border-radius: 50%; object-fit: cover;" />
-  </div>
-
-  <div id="toptitle" style="text-align: center; margin-bottom: 15px;">
-    <h3><strong>{{ member.name }}</strong></h3>
-  </div>
-
-  <ul class="social-icons" style="list-style: none; padding: 0; margin: 0; font-size: 0.9em;">
-    {% if member.identity %}
-      <li style="margin-bottom: 0.8em;"><h4 style="margin: 0; font-size: 0.95em;"><i>{{ member.identity }}</i></h4></li>
-    {% endif %}
-    {% if member.email1 %}
-      <li style="margin-bottom: 6px;"><a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.email2 %}
-      <li style="margin-bottom: 6px;"><a href="mailto:{{ member.email2 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.github %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.googlescholar %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.googlescholar }}"><i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.semanticscholar %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.semanticscholar }}"><i class="ai ai-fw ai-semantic-scholar" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.researchgate %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.researchgate }}"><i class="ai ai-fw ai-researchgate" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.dblp %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.dblp }}"><i class="ai ai-fw ai-dblp" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.linkedin %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.linkedin }}"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.twitter %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.twitter }}"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a></li>
-    {% endif %}
-    {% if member.cv %}
-      <li style="margin-bottom: 6px;"><a href="{{ member.cv }}"><i class="fa fa-fw fa-book" aria-hidden="true"></i></a></li>
-    {% endif %}
-  </ul>
+<div class="hidden-xs" id="toptitle" style="margin-left: 15pt">
+  <h3><strong>{{ member.name }}</strong></h3>
 </div>
 
-<!-- Mobile Layout -->
-<div class="visible-xs" style="padding: 15px;">
-  <div class="row" style="margin: 0;">
-    <div class="col-xs-4" style="padding: 0;">
-      <a id="profile" href="{{site.url}}{{site.baseurl}}/">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" 
-             class="img-responsive" 
-             style="width: 100%; display: block; border: 2px solid #ccc; border-radius: 50%; object-fit: cover;" />
-      </a>
+<ul class="social-icons hidden-xs" style="margin-left: -14pt;list-style: none">
+  {% if member.identity %}
+    <li><div style="white-space: normal; margin-bottom: 1em;"><h4><i>{{ member.identity }}</i></h4></div></li>
+  {% endif %}
+  {% if member.location %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ member.location }}</li>
+  {% endif %}
+  {% if member.university %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-university" aria-hidden="true"></i> {{ member.university }}</li>
+  {% endif %}
+  {% if member.email1 %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email1 }}">  Email</a></li>
+  {% endif %}
+  {% if member.email2 %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i><a href="mailto:{{ member.email2 }}">  Email</a></li>
+  {% endif %}
+
+
+  {% if member.github %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-github"></i><a href="{{ member.github }}">  Github</a></li>
+  {% endif %}
+  {% if member.googlescholar %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="ai ai-fw ai-google-scholar"></i><a href="{{ member.googlescholar }}">  Google Scholar</a></li>
+  {% endif %}
+  {% if member.semanticscholar %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="ai ai-fw ai-semantic-scholar"></i><a href="{{ member.semanticscholar }}">  Semantic Scholar</a></li>
+  {% endif %}
+  {% if member.researchgate %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="ai ai-fw ai-researchgate"></i><a href="{{ member.researchgate }}">  ResearchGate</a></li>
+  {% endif %}
+  {% if member.dblp %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="ai ai-fw ai-dblp"></i><a href="{{ member.dblp }}">  DBLP</a></li>
+  {% endif %}
+  {% if member.linkedin %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-linkedin"></i><a href="{{ member.linkedin }}">  LinkedIn</a></li>
+  {% endif %}
+  {% if member.twitter %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-twitter"></i><a href="{{ member.twitter }}">  Twitter</a></li>
+  {% endif %}
+  {% if member.cv %}
+    <li style="margin-bottom: 6px; margin-left: -2pt;"><i class="fa fa-fw fa-book"></i><a href="{{ member.cv }}">  CV</a></li>
+  {% endif %}
+</ul>
+
+<div class="visible-xs">
+  <div class="row" style="margin:0;">
+    <div class="col-xs-3 text-center" style="margin-left: -10px;">
+      <a id="profile" href="{{site.url}}{{site.baseurl}}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/pi_imgs/{{ member.photo }}" class="img-responsive" width="90vw" style="display: block; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px;border: 2px solid #ccc;border-radius: 50%;object-fit: cover;" /></a>
     </div>
   
-    <div class="col-xs-8" style="padding-left: 15px;">
-      <div id="toptitle" style="margin-bottom: 10px;">
-        <h2 style="margin: 0; font-size: 1.3em;"><strong>{{ member.name }}</strong></h2>
+    <div class="col-xs-9" style="padding-left:20px;">
+      <div id="toptitle" style="margin-left: 20px;margin-top: -15px;">
+        <h2><strong>{{ member.name }}</strong></h2>
       </div>
     
       {% if member.identity %}
-        <div style="white-space: normal; margin-bottom: 1em; font-size: 0.95em;"><i>{{ member.identity }}</i></div>
+        <div style="white-space: normal; margin-bottom: 1em; margin-left: 22px;"><h4><i>{{ member.identity }}</i></h4></div>
       {% endif %}
 
-      <div style="font-size: 1.2em;">
+      <div style="margin-left: 20px">
         {% if member.email1 %}
           <a href="mailto:{{ member.email1 }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>
         {% endif %}
