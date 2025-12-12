@@ -10,7 +10,7 @@ permalink: /award
 
 <div style="margin-top: 35px"></div>
 
-### Honor and Award -->
+### Honor and Award
 
 - 2025: NeurIPS 2025 Student Scholarship
 <!-- - 2025: XXX Notable Reviewer -->
