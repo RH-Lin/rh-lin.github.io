@@ -14,8 +14,10 @@ permalink: /service
 
 ### Organization Member
 
+- CSIG Student Member (中国图象图形学学会)
 - ACL Student Member
 - ACM Student Member
+
 <!-- - IEEE Member -->
 <!-- - CAAI Member (中国人工智能学会) -->
 <!-- - CIPS Member (中国中文信息学会) -->
@@ -60,6 +62,7 @@ permalink: /service
 
 ### Conference Program Committee Member
 
+- ICLR 2026
 - AAAI 2026
 - ACL 2024/2025
 - ACMMM 2025
@@ -74,7 +77,7 @@ permalink: /service
 
 - **IEEE** Transactions on Affective Computing (**TAFFC**), Transactions on Neural Networks and Learning Systems (**TNNLS**), Access
 - **IEEE/ACM** Transactions on Audio, Speech, and Language Processing (**TASLP**)
-- **Elsevier** Information Fusion (**INFFUS**), Knowledge-Based Systems (**KBS**), Neurocomputing (**NEUCOM**), Applied Soft Computing (**ASC**)
+- **Elsevier** Information Fusion (**INFFUS**), Advanced Engineering Informatics (**AEI**), Knowledge-Based Systems (**KBS**), Expert Systems with Applications (**ESWA**), Engineering Applications of Artificial Intelligence (**EAAI**), Artificial Intelligence Review (**AIR**), Applied Soft Computing (**ASC**), Neurocomputing (**NEUCOM**), Computer Vision and Image Understanding (CVIU)
 - **SpringerNature** BioData Mining, Machine Learning (ML), Multimedia Systems (MS), Knowledge and Information Systems (KAIS), Discover Artificial Intelligence (DAI), Scientific Reports (SR)
 - ...
 
