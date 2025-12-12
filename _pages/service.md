@@ -14,13 +14,13 @@ permalink: /service
 
 ### Organization Member
 
-- CSIG Student Member (中国图象图形学学会)
+- CSIG (中国图象图形学学会) Student Member 
 - ACL Student Member
 - ACM Student Member
 
 <!-- - IEEE Member -->
-<!-- - CAAI Member (中国人工智能学会) -->
-<!-- - CIPS Member (中国中文信息学会) -->
+<!-- - CAAI (中国人工智能学会) Member  -->
+<!-- - CIPS (中国中文信息学会) Member  -->
 <!-- - Youth Working Committee Member of CAAI -->
 
 

@@ -13,8 +13,7 @@ permalink: /award
 ### Honor and Award -->
 
 - 2025: NeurIPS 2025 Student Scholarship
-<!-- - 2025: XXX Notable Reviewer
-
+<!-- - 2025: XXX Notable Reviewer -->
 
 
 <!-- ------------------------------------------- -->
