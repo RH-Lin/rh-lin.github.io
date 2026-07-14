@@ -1,13 +1,15 @@
+# <sup>#</sup>: Equal contribution
+# <sup>*</sup>: Corresponding author
 
 - title: "CyIN: Cyclic Informative Latent Space for Bridging Complete and Incomplete Multimodal Learning"
   venue:
     name: NeurIPS
     note: # 
   year: 2025
-  authors: <strong>Ronghao Lin</strong>, Qiaolin He, Sijie Mai, Ying Zeng, Aolin Xiong, Li Huang, Yap-Peng Tan, Haifeng Hu
+  authors: <strong>Ronghao Lin</strong>, Qiaolin He, Sijie Mai, Ying Zeng, Aolin Xiong, Li Huang, Yap-Peng Tan, Haifeng Hu<sup>*</sup>
   highlight: # Oral, Highlight
   link:
-    paper: # 
+    paper: https://neurips.cc/virtual/2025/loc/san-diego/poster/116824 
     code: https://github.com/RH-Lin/CyIN
 
 - title: "E3RG: Building Explicit Emotion-driven Empathetic Response Generation System with Multimodal Large Language Model"
@@ -15,8 +17,8 @@
     name: ACM MM
     note: Grand Challenge
   year: 2025
-  authors: <strong>Ronghao Lin</strong>, Shuai Shen, Weipeng Hu, Qiaolin He, Aolin Xiong, Li Huang, Haifeng Hu, Yap-Peng Tan
-  highlight: # Oral, Highlight
+  authors: <strong>Ronghao Lin</strong>, Shuai Shen, Weipeng Hu, Qiaolin He, Aolin Xiong, Li Huang, Haifeng Hu<sup>*</sup>, Yap-Peng Tan
+  highlight: Oral #, Highlight
   link:
     paper: # 
     code: https://github.com/RH-Lin/E3RG
@@ -26,7 +28,7 @@
     name: ACM MM
     note: SVC Workshop 
   year: 2025
-  authors: <strong>Ronghao Lin</strong>, Sijie Mai, Ying Zeng, Qiaolin He, Aolin Xiong, Haifeng Hu
+  authors: <strong>Ronghao Lin</strong>, Sijie Mai, Ying Zeng, Qiaolin He, Aolin Xiong, Haifeng Hu<sup>*</sup>
   highlight: Oral #, Highlight
   link:
     paper: # 
@@ -37,7 +39,7 @@
     name: EMNLP
     note: Findings
   year: 2022
-  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   highlight: # Oral, Highlight
   link:
     paper: https://aclanthology.org/2022.findings-emnlp.36/

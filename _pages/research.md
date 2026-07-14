@@ -76,7 +76,8 @@ I have also worked on the following topics:
 
 - **Multimodal Learning** 
   - Video Understanding 
-  - Vision-Language Pre-train
+  - Vision-Language Pre-train and Post-train
+  - Multimodal Reasoning
 
 - **Generation** 
   - Talking Head Generation

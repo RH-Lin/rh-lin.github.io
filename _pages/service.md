@@ -28,11 +28,17 @@ permalink: /service
 
 <!-- <div style="margin-top: 30px"></div>
 
-<!-- ### Conference / Grand Challenge / Workshop Organizer -->
+### Conference / Grand Challenge / Workshop Organizer
 
-<!-- - [XXXX 2025](https://XXXX) Program Chair -->
+[AAAI 2026](https://XXXX) Program Chair -->
 
+<!-- ------------------------------------------- -->
 
+<div style="margin-top: 30px"></div>
+
+### Conference Session Chair / Co-Chair
+
+- AAAI 2026 (2 Oral Sessions)
 
 <!-- ------------------------------------------- -->
 
@@ -55,18 +61,22 @@ permalink: /service
 - Associate Editor, [Transactions XXX](https://XXX) -->
 
 
-
 <!-- ------------------------------------------- -->
 
 <div style="margin-top: 30px"></div>
 
 ### Conference Program Committee Member
 
+- NeurIPS 2026
+- ICML 2026
+- CVPR 2026
 - ICLR 2026
 - AAAI 2026
-- ACL 2024/2025
-- ACMMM 2025
+- ACL 2024/2025/2026
+- ACMMM 2025/2026
 - EMNLP 2025
+- ECCV 2026
+- ICMR 2026
 - ACMMM Asia 2025
 
 <!-- ------------------------------------------- -->
@@ -77,7 +87,7 @@ permalink: /service
 
 - **IEEE** Transactions on Affective Computing (**TAFFC**), Transactions on Neural Networks and Learning Systems (**TNNLS**), Access
 - **IEEE/ACM** Transactions on Audio, Speech, and Language Processing (**TASLP**)
-- **Elsevier** Information Fusion (**INFFUS**), Advanced Engineering Informatics (**AEI**), Knowledge-Based Systems (**KBS**), Expert Systems with Applications (**ESWA**), Engineering Applications of Artificial Intelligence (**EAAI**), Artificial Intelligence Review (**AIR**), Applied Soft Computing (**ASC**), Neurocomputing (**NEUCOM**), Computer Vision and Image Understanding (CVIU)
+- **Elsevier** Information Fusion (**INFFUS**), Information Processing and Management (**IPM**), Pattern Recognition (**PR**), Advanced Engineering Informatics (**AEI**), Knowledge-Based Systems (**KBS**), Expert Systems with Applications (**ESWA**), Engineering Applications of Artificial Intelligence (**EAAI**), Artificial Intelligence Review (**AIR**), Applied Soft Computing (**ASC**), Neurocomputing (**NEUCOM**), Computer Vision and Image Understanding (CVIU)
 - **SpringerNature** BioData Mining, Machine Learning (ML), Multimedia Systems (MS), Knowledge and Information Systems (KAIS), Discover Artificial Intelligence (DAI), Scientific Reports (SR)
 - ...
 

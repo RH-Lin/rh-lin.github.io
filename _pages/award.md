@@ -20,7 +20,7 @@ permalink: /award
 
 <!-- <div style="margin-top: 30px"></div> -->
 
-### Fund
+### Funding
 - 2024: International Program Fund for Young Talent Scientific Research People in Guangdong
 
 

@@ -13,7 +13,7 @@ git push origin main -->
 
 <!-- Thanks to the following reference !!!
 acad-homepage[https://github.com/RayeRen/acad-homepage.github.io]
-scofield7419[https://github.com/scofield7419/scofield7419.github.io] -->
+academicpages[https://github.com/academicpages/academicpages.github.io] -->
 
 <!-- 1. 配置谷歌学术引用爬虫：
     1. 在你的谷歌学术引用页面的url里找到你的谷歌学术ID：例如，在url https://scholar.google.com/citations?user=SCHOLAR_ID 中，`SCHOLAR_ID`部分即为你的谷歌学术ID。

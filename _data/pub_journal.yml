@@ -1,10 +1,32 @@
+# <sup>#</sup>: Equal contribution
+# <sup>*</sup>: Corresponding author
+
+- title: "Affection-guided Bottleneck Diffusion for Missing Modality Issue in Multimodal Affective Computing"
+  venue:
+    full: IEEE Transactions on Affective Computing
+    short: TAFFC
+  year: 2025
+  authors: <strong>Ronghao Lin</strong>, Qiaolin He, Ying Zeng, Sijie Mai, Li Huang, and Haifeng Hu<sup>*</sup>
+  link:
+    paper: https://ieeexplore.ieee.org/document/11241214
+    code: https://github.com/RH-Lin/ABDiff
+
+- title: "From Uni- to Multi-Modal: Progressive Multi-Source Domain Adaptation with Gradient Disentangling for Audio-Visual Deception Detection"
+  venue:
+    full: Machine Intelligence Research
+    short: MIR
+  year: 2025
+  authors: <strong>Ronghao Lin</strong><sup>#</sup>, Aolin Xiong<sup>#</sup>, Qiaolin He, Sijie Mai, Li Huang, Haifeng Hu<sup>*</sup>
+  link:
+    paper: https://ieeexplore.ieee.org/document/11241214
+    code: https://github.com/RH-Lin/ABDiff
 
 - title: "Adapt and Explore: Multimodal Mixup for Representation Learning"
   venue:
     full: ELSEVIER Information Fusion
     short: INFFUS
   year: 2024
-  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://www.sciencedirect.com/science/article/abs/pii/S1566253523005328
     code: https://github.com/RH-Lin/m3ixup
@@ -14,7 +36,7 @@
     full: MIT Transactions of the Association for Computational Linguistics
     short: TACL
   year: 2024
-  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00628/118797
     code: https://github.com/RH-Lin/MissModal
@@ -27,7 +49,7 @@
     full: IEEE Transactions on Affective Computing
     short: TAFFC
   year: 2023
-  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/abstract/document/10143237
     code: https://github.com/RH-Lin/MTMD
@@ -37,17 +59,27 @@
     full: IEEE Transactions on Multimedia
     short: TMM
   year: 2023
-  authors: <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/10214099
     code: https://github.com/RH-Lin/MSG-MBA
+
+- title: "An Ordinal Learning Framework with Sentiment Decouple for Multimodal Sentiment Analysis"
+  venue:
+    full: IEEE Transactions on Multimedia
+    short: TMM
+  year: 2025
+  authors: Sijie Mai, <strong>Ronghao Lin</strong> and Haifeng Hu<sup>*</sup>
+  link:
+    paper: #
+    code: #
 
 - title: "Prompt-guided Transformer and MLLM Interactive Learning for Text-Based Pedestrian Search"
   venue:
     full: IEEE Transactions on Information Forensics and Security
     short: TIFS
   year: 2025
-  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Tan Yap-Peng, Haifeng Hu
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Tan Yap-Peng, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/11072213
     code: #
@@ -57,7 +89,7 @@
     full: IEEE Transactions on Intelligent Transportation Systems
     short: TITS
   year: 2024
-  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/10565930
     code: #
@@ -67,7 +99,7 @@
     full: IEEE Transactions on Neural Networks and Learning Systems
     short: TNNLS
   year: 2024
-  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/10500441
     code: #
@@ -77,7 +109,7 @@
     full: IEEE Transactions on Multimedia
     short: TMM
   year: 2024
-  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/10209282
     code: #
@@ -87,7 +119,7 @@
     full: IEEE Transactions on Intelligent Transportation Systems
     short: TITS
   year: 2023
-  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/10007428
     code: #
@@ -97,7 +129,7 @@
     full: IEEE Transactions on Intelligent Transportation Systems
     short: TITS
   year: 2023
-  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/9945658
     code: #
@@ -107,7 +139,7 @@
     full: IEEE Transactions on Intelligent Transportation Systems
     short: TITS
   year: 2022
-  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu
+  authors: Zefeng Lu, <strong>Ronghao Lin</strong>, Haifeng Hu<sup>*</sup>
   link:
     paper: https://ieeexplore.ieee.org/document/9736328
     code: #
