@@ -36,7 +36,7 @@ I am highly-motivated with foundations of computer science, artificial intellige
 
 <!-- My long-term goal is to build human-centric perception and cognition system.  -->
 
-I also extensively explore the application of AI for science, cognitive computing, social and economics studies.
+I also extensively explore the application of AI for science, cognitive computing, psyhcology, social and economics studies.
 
 <div style="border-radius: 0.7em;background-color: rgba(0,0,0,3%);padding-bottom: 1.0pt;padding-left: 4.0pt;padding-right: 4.0pt;padding-top: 4.0pt;">
 
