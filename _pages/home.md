@@ -21,9 +21,6 @@ I am currently a "Hundred Talents" Assistant Professor at the College of Compute
 I received my Ph.D. degree from Sun Yat-Sen University (SYSU) in June 2026, supervised by Prof. [Haifeng Hu](https://seit.sysu.edu.cn/teacher/HuHaifeng). I was a joint Ph.D. at Nanyang Technological University (NTU) for one year supervised by Prof. [Yap-peng Tan](https://dr.ntu.edu.sg/entities/person/Tan-Yap-Peng) at [CARTIN](https://www.ntu.edu.sg/cartin).
 {: .text-justify}
 
-I am highly-motivated with foundations of computer science, artificial intelligence, physics, and finance. I have published over 20 papers in top journals and conferences, e.g. IEEE TMM, TAFFC, TACL, NeurIPS, ACM MM, EMNLP.
-{: .text-justify}
-
 <!-- ------------------------------------------- -->
 
 <div style="margin-top: 20px"></div>
@@ -31,12 +28,13 @@ I am highly-motivated with foundations of computer science, artificial intellige
 ### 💫 Research
 My research interests include: CV & NLP, Multimodal Understanding and Generation, Affective Computing and Cognitive Reasoning, Trustworthy Multimodal Learning, Multimodal Empathetic Response with LLM, Digital Human Generation, Video Understanding,World Model and so on. 
 
-我的研究兴趣包括：计算机视觉与自然语言处理，多模态理解与生成，情感计算与认知推理，可信多模态学习，大模型共情回复，数字人生成，视频理解，世界模型等。
-
-I have published 20+ papers at the top AI conferences / journals <a href='https://scholar.google.com/citations?user=xm6apUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRH-Lin%2Frh-lin.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+我的研究兴趣包括：计算机视觉与自然语言处理，多模态理解与生成，情感计算与认知推理，可信多模态学习，大模型共情回复，数字人生成，视频理解，世界模型等。 
 {: .text-justify}
 
-My long-term goal is to build human-centric multimodal understanding and generation. 
+I am highly-motivated with foundations of computer science, artificial intelligence, physics, and finance. I have published over 20 papers in top journals and conferences, e.g. IEEE TMM, TAFFC, TACL, NeurIPS, ACM MM, EMNLP. <a href='https://scholar.google.com/citations?user=xm6apUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRH-Lin%2Frh-lin.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+{: .text-justify}
+
+<!-- My long-term goal is to build human-centric perception and cognition system.  -->
 
 I also extensively explore the application of AI for science, cognitive computing, social and economics studies.
 
