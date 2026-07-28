@@ -52,13 +52,12 @@ permalink: /service
 
 <!-- ------------------------------------------- -->
 
-<!-- <div style="margin-top: 30px"></div>
-
+<div style="margin-top: 30px"></div>
 
 ### Journal Editorial Board
 
-- Guest Editor, at [Transactions XXX](https://XXX)
-- Associate Editor, [Transactions XXX](https://XXX) -->
+- Guest Editor, at Special Issue [Advances in Multimodal Learning for Affective Computing](https://www.mdpi.com/journal/information/special_issues/5WEG093O23) in [Information](https://www.mdpi.com/journal/information)
+<!-- - Associate Editor, [Transactions XXX](https://XXX) -->
 
 
 <!-- ------------------------------------------- -->

@@ -18,7 +18,7 @@ permalink: /
 I am currently a "Hundred Talents" Assistant Professor at the College of Computer Science and Software Engineering, Shenzhen University (SZU), working with the [Visual Computing Research Center](https://vcc.tech/index) (VCC) (headed by Prof. [Hui Huang](https://vcc.tech/~huihuang)).
 {: .text-justify}
 
-I received my Ph.D. degree from Sun Yat-Sen University (SYSU) in June 2026, supervised by Prof. [Haifeng Hu](https://seit.sysu.edu.cn/teacher/HuHaifeng). I was a joint Ph.D. at Nanyang Technological University (NTU) for one year supervised by Prof. [Yap-peng Tan](https://dr.ntu.edu.sg/entities/person/Tan-Yap-Peng) at [CARTIN](https://www.ntu.edu.sg/cartin).
+I received my B.S. degree from Sun Yat-Sen University (SYSU) in June 2021 and Ph.D. degree from Sun Yat-Sen University (SYSU) in June 2026, supervised by Prof. [Haifeng Hu](https://seit.sysu.edu.cn/teacher/HuHaifeng). I was a joint Ph.D. at Nanyang Technological University (NTU) for one year supervised by Prof. [Yap-peng Tan](https://dr.ntu.edu.sg/entities/person/Tan-Yap-Peng) at [CARTIN](https://www.ntu.edu.sg/cartin).
 {: .text-justify}
 
 <!-- ------------------------------------------- -->
@@ -26,7 +26,7 @@ I received my Ph.D. degree from Sun Yat-Sen University (SYSU) in June 2026, supe
 <div style="margin-top: 20px"></div>
 
 ### 💫 Research
-My research interests include: CV & NLP, Multimodal Understanding and Generation, Affective Computing and Cognitive Reasoning, Trustworthy Multimodal Learning, Multimodal Empathetic Response with LLM, Digital Human Generation, Video Understanding,World Model and so on. 
+My research interests include: CV & NLP, Multimodal Understanding and Generation, Affective Computing and Cognitive Reasoning, Trustworthy Multimodal Learning, Multimodal Empathetic Response with LLM, Digital Human Generation, Video Understanding, World Model and so on. 
 
 我的研究兴趣包括：计算机视觉与自然语言处理，多模态理解与生成，情感计算与认知推理，可信多模态学习，大模型共情回复，数字人生成，视频理解，世界模型等。 
 {: .text-justify}
