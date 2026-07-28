@@ -56,7 +56,7 @@ permalink: /service
 
 ### Journal Editorial Board
 
-- Guest Editor, at Special Issue [Advances in Multimodal Learning for Affective Computing](https://www.mdpi.com/journal/information/special_issues/5WEG093O23) in [Information](https://www.mdpi.com/journal/information)
+- Guest Editor, at [Information](https://www.mdpi.com/journal/information), on a Special Issue titled as "[Advances in Multimodal Learning for Affective Computing](https://www.mdpi.com/journal/information/special_issues/5WEG093O23)" 
 <!-- - Associate Editor, [Transactions XXX](https://XXX) -->
 
 
