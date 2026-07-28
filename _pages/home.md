@@ -18,7 +18,7 @@ permalink: /
 I am currently a "Hundred Talents" Assistant Professor at the College of Computer Science and Software Engineering, Shenzhen University (SZU), working with the [Visual Computing Research Center](https://vcc.tech/index) (VCC) (headed by Prof. [Hui Huang](https://vcc.tech/~huihuang)).
 {: .text-justify}
 
-I received my B.S. degree from Sun Yat-Sen University (SYSU) in June 2021 and Ph.D. degree from Sun Yat-Sen University (SYSU) in June 2026, supervised by Prof. [Haifeng Hu](https://seit.sysu.edu.cn/teacher/HuHaifeng). I was a joint Ph.D. at Nanyang Technological University (NTU) for one year supervised by Prof. [Yap-peng Tan](https://dr.ntu.edu.sg/entities/person/Tan-Yap-Peng) at [CARTIN](https://www.ntu.edu.sg/cartin).
+I received my B.S. degree from the School of Physics, Sun Yat-Sen University (SYSU) in June 2021 and Ph.D. degree from the School of Electronics and Information Technology, Sun Yat-Sen University (SYSU) in June 2026, supervised by Prof. [Haifeng Hu](https://seit.sysu.edu.cn/teacher/HuHaifeng). I was a joint Ph.D. at Nanyang Technological University (NTU) for one year supervised by Prof. [Yap-peng Tan](https://dr.ntu.edu.sg/entities/person/Tan-Yap-Peng) at [CARTIN](https://www.ntu.edu.sg/cartin).
 {: .text-justify}
 
 <!-- ------------------------------------------- -->
